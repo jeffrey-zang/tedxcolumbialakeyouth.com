@@ -1,9 +1,13 @@
+import { Routes, Route } from 'react-router-dom'
+
+import Landing from './pages/Landing'
+
 function App() {
 
   return (
-    <div>
-      breyers
-    </div>
+    <Routes>
+      <Route index element={<Landing />} />
+    </Routes>
   )
 }
 
