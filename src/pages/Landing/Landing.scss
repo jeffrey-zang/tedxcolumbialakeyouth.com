@@ -7,6 +7,12 @@
   width: 100%;
   top: 0;
   
+  &.right div {
+    background: radial-gradient(circle, rgba(236,215,222,1) 0%, rgba(242,241,244,1) 35%);
+  } &.left div {
+    background: radial-gradient(circle, rgba(50,61,84,1) 0%, rgba(17,24,39,1) 35%);
+  }
+  
   h1, h2, h3 {
     margin: 0px 10vw;
     width: 80vw;
