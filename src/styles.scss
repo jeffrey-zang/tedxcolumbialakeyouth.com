@@ -46,5 +46,17 @@ h1 {
 
 .gradient-text {
   -webkit-background-clip: text;
+  -webkit-background-size: 1000px;
+  background-clip: text;
+  background-size: 1000px;
   -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0%, 70% {
+    background-position: 0px;
+  } 100% {
+    background-position: 1000px;
+  }
 }
