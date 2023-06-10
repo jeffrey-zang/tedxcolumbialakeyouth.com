@@ -7,4 +7,31 @@
 body {
   margin: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 7rem;
+  line-height: 7rem;
+}
+
+.landing {
+  display: grid;
+  height: 100dvh;
+  overflow: hidden;
+  place-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+.landing h1 {
+  margin: 0px 10vw;
+  width: 80vw;
+  text-align: center;
+  font-weight: 900;
+}
+
+.fancy {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
