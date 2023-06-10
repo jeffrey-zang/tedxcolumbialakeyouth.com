@@ -1,17 +1,21 @@
 .navbar {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid gray;
+  font-size: 1.25rem;
   
   .links {
-    display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     
     p {
       cursor: pointer;
-      transition: 0.3s color ease;
+      transition: 0.3s color ease, 0.3s background-color ease;
       color: white;
+      padding: 1rem 1.5rem;
+      border-radius: 2rem;
 
       &:hover {
-        color: #ddd;
+        color: lighten(#c20125, 30%);
+        background-color: #232323;
       }
     }
   }

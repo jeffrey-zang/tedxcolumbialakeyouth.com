@@ -9,15 +9,29 @@ body {
   margin: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  background-color: #111827;
 }
 
 button {
-  padding: 12px 32px;
-  border-radius: 100px;
-  background-color: lighten(#ba001f, 20%);
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  background-color: #444;
+  color: #f3f4f6;
+  transition: 0.3s background-color ease;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 
   &:hover {
-    background-color: #ba001f;
+    background-color: #333;
+    color: darken(#f3f4f6, 10%)
+  }
+  
+  &.red {
+    background-color: #c20125;
+    color: white;
+    &:hover {
+      background-color: #a8011b;
+    }
   }
 }
 
