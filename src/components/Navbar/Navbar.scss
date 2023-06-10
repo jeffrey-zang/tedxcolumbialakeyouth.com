@@ -1,0 +1,18 @@
+.navbar {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  
+  .links {
+    display: flex;
+    gap: 2rem;
+    
+    p {
+      cursor: pointer;
+      transition: 0.3s color ease;
+      color: white;
+
+      &:hover {
+        color: #ddd;
+      }
+    }
+  }
+}
