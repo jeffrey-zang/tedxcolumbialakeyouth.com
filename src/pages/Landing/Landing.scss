@@ -1,0 +1,29 @@
+.landing {
+  display: grid;
+  height: 100dvh;
+  overflow: hidden;
+  place-items: center;
+  position: absolute;
+  width: 100%;
+  
+  h1, h2, h3 {
+    margin: 0px 10vw;
+    width: 80vw;
+    text-align: center;
+  }
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 7rem;
+    line-height: 7rem;  
+  } h2 {
+    margin-bottom: 2rem;
+    font-size: 2.25rem;
+    color: #999;
+  } h3 {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    color: #999;
+    font-weight: normal;
+  }
+}
