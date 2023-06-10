@@ -8,10 +8,10 @@ const Navbar = () => {
           <span className='font-black'>TED<sup>x</sup></span><span className='font-normal'>Columbia Lake</span> Youth
         </h2>
         <div className='links'>
-          <p>About</p>
-          <p>Sponsors</p>
-          <p>Our Team</p>
           <p>Speakers</p>
+          <p>About</p>
+          <p>Our Team</p>
+          <p>Sponsors</p>
           <p>Apply now</p>
         </div>
       </div>
