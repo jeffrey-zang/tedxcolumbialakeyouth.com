@@ -24,12 +24,23 @@ h1 {
   position: absolute;
   width: 100%;
 
-  h1 {
+  h1, h2, h3 {
     margin: 0px 10vw;
     width: 80vw;
     text-align: center;
+    font-family: 'DM Mono', monospace;
+  }
+  h1 {
     font-weight: 900;
-    font-family: 'DM Mono', monospace;  
+  } h2 {
+    margin-bottom: 2rem;
+    font-size: 2.25rem;
+    color: #999;
+  } h3 {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    color: #999;
+    font-weight: normal;
   }
 }
 

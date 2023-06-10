@@ -19,16 +19,18 @@ const Landing = () => {
   return (
     <div onMouseMove={(e) => handleMove(e)} onTouchMove={(e) => handleMove(e.touches[0])}>
       <img src={wave} alt='wave' className='absolute top-0 w-full z-10' />
-      <div className='landing'>
+      <div className='landing bg-gray-50 text-gray-950'>
         <div>
+          <h2>TED<sup>x</sup>Columbia Lake Youth</h2>
           <h1>Let's reimagine <br/><span className='gradient-text bg-gradient-to-r from-orange-300 to-red'>innovation</span></h1>
-          <h2>October 7 • Kitchener Public Library</h2>
+          <h3>October 7 • Kitchener Public Library</h3>
         </div>
       </div>
-      <div ref={ref} className='landing bg-black text-white'>
+      <div ref={ref} className='landing bg-gray-950 text-gray-50'>
         <div>
+          <h2>TED<sup>x</sup>Columbia Lake Youth</h2>
           <h1>Let's reenvision <br/><span className='gradient-text bg-gradient-to-r from-red to-purple-400'>education</span></h1>
-          <h2>October 7 • Kitchener Public Library</h2>
+          <h3>October 7 • Kitchener Public Library</h3>
         </div>
       </div>
     </div>
