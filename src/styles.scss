@@ -6,10 +6,22 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   background-color: #111827;
+  color: #f2f1f4;
+}
+html, #root, body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.25rem;
+  color: #f2f1f4;
 }
 
 button {
@@ -34,6 +46,11 @@ button {
     }
   }
 }
+
+// .section {
+//   padding-left: 20%;
+//   padding-right: 20%;
+// }
 
 .gradient-text {
   -webkit-background-clip: text;

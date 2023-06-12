@@ -8,7 +8,7 @@ const Navbar = () => {
           <span className='font-black text-red'>TED<sup>x</sup></span><span className='font-normal'>Columbia Lake</span> Youth
         </h2>
         <div className='links hidden lg:flex items-center'>
-          <p>Speakers</p>
+          {/* <p>Speakers</p> */}
           <p>About</p>
           <p>Our Team</p>
           <p>Sponsors</p>
