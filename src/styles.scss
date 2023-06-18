@@ -27,6 +27,14 @@ p {
   color: #e5e7eb;
   line-height: 1.75rem;
 }
+a {
+  color: lighten(#c20025, 10%);
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
 button {
   padding: 1rem 1.5rem;
