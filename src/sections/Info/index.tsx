@@ -10,7 +10,7 @@ const Info = () => {
         <div className='section-wrapper'>
           <h2>What is <span className='font-normal'><span className='font-black text-red'>TED<sup>x</sup></span>Columbia Lake <span className='font-bold'>Youth</span></span>?</h2>
           <p>
-            It's where innovation, inspiration, and education collide. Situated in the heart of the Waterloo region, TEDxColumbia Lake Youth is the celebration of young minds shaping the future. TEDxColumbia Lake Youth's mission is to motivate, inspire, and encourage the next generation of changemakers and leaders to unleash their passions, carve their own paths of learning, and become catalysts for positive change. TEDxColumbia Lake Youth is working to pave the way to reinventing education.<br/><br/>
+            It's where innovation, inspiration, and education collide. Situated in the heart of Waterloo, Ontario, Canada, TEDxColumbia Lake Youth is the celebration of young minds shaping the future. TEDxColumbia Lake Youth's mission is to motivate, inspire, and encourage the next generation of changemakers and leaders to unleash their passions, carve their own paths of learning, and become catalysts for positive change. TEDxColumbia Lake Youth is working to pave the way to reinventing education.<br/><br/>
             TEDxColumbia Lake Youth' theme is reinventing education, aiming to inspire a young audience to seek learning outside the classroom. With experts and inspiring speakers from across the region, TEDxColumbia Lake Youth is looking to share recent case studies and strategies spanning the personal, societal and physical branches of learning.
           </p>
         </div>

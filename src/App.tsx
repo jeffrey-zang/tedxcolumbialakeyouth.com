@@ -1,8 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Landing from './pages/Landing/Landing'
-import About from './pages/Info/Info'
-import Navbar from './components/Navbar/Navbar'
+import Landing from './pages/Landing'
+import About from './pages/About'
+import Info from './sections/Info'
+import Navbar from './components/Navbar'
 
 function App() {
 
@@ -13,9 +14,10 @@ function App() {
         <Route index element={
           <div>
             <Landing />
-            <About />
+            <Info />
           </div>
         } />
+        <Route path='/about' element={<About />} />
       </Routes>
     </div>
   )

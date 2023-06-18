@@ -2,12 +2,14 @@ import './Navbar.scss'
 import Hamburger from 'hamburger-react'
 import { useState } from 'react'
 import insta from '../../assets/insta.svg'
+import { Link } from 'react-router-dom'
 
 const Links = () => {
+
   return (
     <>
-      <a className='no-styles' href='#info'>Event Info</a>
-      <p>About TED</p>
+      <a href='/#info' className='no-styles'>Event Info</a>
+      <Link to='/about' className='no-styles'>About TED</Link>
       <p>Our Team</p>
       <p>Sponsors</p>
     </>
@@ -20,8 +22,8 @@ const Navbar = () => {
 
   return (
     <div className='z-20 px-8 lg:px-12 fixed w-full top-0 bg-gray-950 navbar'>
-      <div className='flex py-4 lg:py-0 justify-between items-center'>
-        <a href='#' className='no-styles text-white font-bold text-xl lg:text-2xl'>
+      <div className='flex py-[17px] lg:py-0 justify-between items-center'>
+        <a href='/#' className='no-styles text-white font-bold text-xl'>
           <span className='no-styles font-black text-red'>TED<sup>x</sup></span><span className='font-normal'>Columbia Lake</span> Youth
         </a>
         <div className='links hidden lg:flex items-center'>
