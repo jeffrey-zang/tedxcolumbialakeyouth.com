@@ -78,6 +78,16 @@ button {
   }
 }
 
+@media screen and (max-width: 750px) {
+  .section {
+    flex-direction: column-reverse;
+
+    img {
+      width: 60%;
+    }
+  }
+}
+
 .gradient-text {
   -webkit-background-clip: text;
   -webkit-background-size: 1000px;

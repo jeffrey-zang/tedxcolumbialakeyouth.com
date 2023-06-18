@@ -6,7 +6,14 @@
   width: 100%;
   position: absolute;
   top: 0;
-  
+  margin: 0;
+  padding: 0;
+
+  div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
   &.right div {
     background: radial-gradient(circle, rgba(236,215,222,1) 0%, rgba(242,241,244,1) 35%);
   } &.left div {
@@ -14,9 +21,12 @@
   }
   
   h1, h2, h3 {
-    margin: 0px 10vw;
-    width: 80vw;
+    width: 100vw;
     text-align: center;
+
+    span {
+      text-align: center;
+    }
   }
   h1 {
     font-family: 'Poppins', sans-serif;
@@ -59,8 +69,8 @@
       width: 100vw;
     }
     h1 {
-      font-size: 2.5rem;
-      line-height: 2.75rem;
+      font-size: 4rem;
+      line-height: 4.5rem;
     } h2 {
       font-size: 1.5rem;
     } h3 {
@@ -69,15 +79,15 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 550px) {
   .landing {
     h1 {
-      font-size: 2rem;
-      line-height: 2.25rem;
+      font-size: 10dvw;
+      line-height: 11dvw;
     } h2 {
-      font-size: 1rem;
+      font-size: 5dvw;
     } h3 {
-      font-size: 0.875rem;
+      font-size: 5dvw;
     }
   }
 }
