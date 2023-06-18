@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 
 import Landing from './pages/Landing/Landing'
-import About from './pages/About/About'
+import About from './pages/Info/Info'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {

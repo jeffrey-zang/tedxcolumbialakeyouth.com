@@ -27,7 +27,7 @@ p {
   color: #e5e7eb;
   line-height: 1.75rem;
 }
-a {
+a:not(.no-styles) {
   color: lighten(#c20025, 10%);
   font-weight: 600;
 

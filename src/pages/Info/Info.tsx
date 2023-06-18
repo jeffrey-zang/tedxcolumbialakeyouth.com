@@ -2,9 +2,9 @@ import wavedown from '../../assets/wave-down.svg'
 import kpl from '../../assets/kpl.jpg'
 import theatre from '../../assets/theatre.webp'
 
-const About = () => {
+const Info = () => {
   return (
-    <div className='z-40 about mt-[99dvh] bg-gradient-to-b from-black via-darkred to-black'>
+    <div className='z-40 about mt-[99dvh] bg-gradient-to-b from-black via-darkred to-black' id='info'>
       <img src={wavedown} alt='wavedown' className='w-full' />
       <div className='section mt-16'>
         <div className='section-wrapper'>
@@ -33,4 +33,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Info
