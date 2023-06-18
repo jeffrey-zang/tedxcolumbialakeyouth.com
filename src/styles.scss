@@ -9,33 +9,37 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   background-color: #111827;
-  color: #f2f1f4;
+  color: #e5e7eb;
 }
 html, #root, body {
   margin: 0;
   padding: 0;
 }
 
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.625rem;
 }
 p {
-  font-size: 1.25rem;
-  color: #f2f1f4;
+  font-size: 1rem;
+  color: #e5e7eb;
+  line-height: 1.75rem;
 }
 
 button {
   padding: 1rem 1.5rem;
   border-radius: 2rem;
   background-color: #444;
-  color: #f3f4f6;
+  color: #e5e7eb;
   transition: 0.3s background-color ease;
   font-size: 1.25rem;
   line-height: 1.75rem;
 
   &:hover {
     background-color: #333;
-    color: darken(#f3f4f6, 10%)
+    color: darken(#e5e7eb, 10%)
   }
   
   &.red {
@@ -47,10 +51,24 @@ button {
   }
 }
 
-// .section {
-//   padding-left: 20%;
-//   padding-right: 20%;
-// }
+.section {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  img {
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #e5e7eb;
+  }
+}
 
 .gradient-text {
   -webkit-background-clip: text;

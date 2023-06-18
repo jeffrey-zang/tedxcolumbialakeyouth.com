@@ -8,8 +8,10 @@ export default {
     extend: {
       colors: {
         red: "#c20025",
-        black: "rgba(17,24,39,1)",
-        white: "rgba(242,241,244,1)"
+        darkred: "#4d1028",
+        black: "#111827",
+        white: "#e5e7eb",
+        gradienttransition: "#451128"
       }
     },
   },
