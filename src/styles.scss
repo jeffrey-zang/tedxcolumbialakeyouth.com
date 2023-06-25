@@ -10,6 +10,12 @@ body {
   box-sizing: border-box;
   background-color: #111827;
   color: #e5e7eb;
+
+  // &:hover {
+  //   .cursor {
+  //     opacity: 1;
+  //   }
+  // }
 }
 html, #root, body {
   margin: 0;
@@ -35,6 +41,28 @@ a:not(.no-styles) {
     text-decoration: underline;
   }
 }
+
+// .cursor {
+//   width: 2rem;
+//   border-radius: 1.5rem;
+//   height: 2rem;
+//   background-color: theme('colors.red');
+//   position: fixed;
+//   left: 0;
+//   top: 0;
+//   opacity: 0;
+//   z-index: 1000;
+//   pointer-events: none;
+
+//   transition: opacity 0.4s ease-in-out, width 0.3s ease, height 0.3s ease, border-radius 0.3s ease;
+
+//   &.active {
+//     width: 4rem;
+//     height: 4rem;
+//     border-radius: 2.5rem;
+//     // background-color: 
+//   }
+// }
 
 button {
   padding: 1rem 1.5rem;
