@@ -3,7 +3,9 @@ import { Routes, Route } from 'react-router-dom'
 import Landing from './pages/Landing'
 import About from './pages/About'
 import Info from './sections/Info'
+
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -34,13 +36,14 @@ function App() {
   // }
 
   return (
-    <div onMouseMove={(e) => handleMove(e)} onTouchMove={(e) => handleMove(e.touches[0])}>
+    <div>
       <Navbar />
       <Routes>
         <Route index element={
           <div>
             <Landing />
             <Info />
+            <Footer />
           </div>
         } />
         <Route path='/about' element={<About />} />

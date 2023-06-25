@@ -3,6 +3,7 @@ import Hamburger from 'hamburger-react'
 import { useState } from 'react'
 import insta from '../../assets/insta.svg'
 import { Link } from 'react-router-dom'
+import Title from '../../components/Title'
 
 const Links = () => {
 
@@ -23,8 +24,8 @@ const Navbar = () => {
   return (
     <div className='z-20 px-8 lg:px-12 fixed w-full top-0 bg-gray-950 navbar'>
       <div className='flex py-[17px] lg:py-0 justify-between items-center'>
-        <a href='/#' className='no-styles text-white font-bold text-xl'>
-          <span className='no-styles font-black text-red'>TED<sup>x</sup></span><span className='font-normal'>Columbia Lake</span> Youth
+        <a href='/#' className='no-styles text-white text-xl'>
+          <Title />
         </a>
         <div className='links hidden lg:flex items-center'>
           <Links />
