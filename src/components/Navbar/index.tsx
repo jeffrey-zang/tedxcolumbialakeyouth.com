@@ -12,7 +12,7 @@ export const Links = (style:any) => {
       <a href='/#info' className={style.style}>Event Info</a>
       <Link to='/about-ted' className={style.style}>About TED</Link>
       <a href='/#partners' className={style.style}>Partners</a>
-      <Link to='/our-team' className={style.style}>Our Team</Link>
+      {/* <Link to='/our-team' className={style.style}>Our Team</Link> */}
     </>
   )
 }
