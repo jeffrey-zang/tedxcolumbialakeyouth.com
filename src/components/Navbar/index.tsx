@@ -1,9 +1,9 @@
 import './Navbar.scss'
 import Hamburger from 'hamburger-react'
 import { useState } from 'react'
-import insta from '../../assets/insta.svg'
 import { Link } from 'react-router-dom'
 import Title from '../../components/Title'
+import Socials from '../Socials'
 
 const Links = () => {
 
@@ -38,9 +38,7 @@ const Navbar = () => {
           <div className='flex flex-col text-center gap-8 items-center'>
             <h3 className='text-2xl'>Navigation</h3>
             <Links />
-            <a href='https://www.instagram.com/tedxcolumbialakeyouth/'>
-              <img src={insta} alt='insta' className='w-8'/>
-            </a>
+            <Socials />
           </div>
         </div>
       </div>
