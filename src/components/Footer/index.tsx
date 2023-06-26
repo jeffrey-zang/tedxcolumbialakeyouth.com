@@ -4,7 +4,7 @@ import { Links } from "../Navbar"
 
 const Footer = () => {
   return (
-    <div className='bg-[#000]'>
+    <div className='bg-[#000] mt-16 w-full'>
       <div className="max-w-[90rem] flex flex-col md:flex-row p-[5%] gap-8 md:gap-0 pb-0 mx-auto">
         <div className='flex flex-col gap-2 w-full md:w-1/3'>
           <p className='text-dimmed text-sm uppercase'>Copyright © 2023</p>
@@ -36,6 +36,8 @@ const Footer = () => {
       </div>
       <div className='text-center pb-[5%] text-dimmed mt-8'>
         Made in <span className='!text-orange-300'>Waterloo</span> with 🧠 and <a href='https://react.dev' className='!text-blue-500'>React</a>
+        <br/>
+        This independent TED<sup>x</sup> event is operated under license from TED
       </div>
     </div>
   )

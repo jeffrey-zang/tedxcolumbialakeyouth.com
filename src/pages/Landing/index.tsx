@@ -1,4 +1,4 @@
-import wave from '../../assets/wave.svg'
+import wave from '../../assets/wave/wave.svg'
 import { useRef } from 'react'
 import './Landing.scss'
 import Title from '../../components/Title'

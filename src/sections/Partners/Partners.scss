@@ -1,0 +1,17 @@
+.partner-logo {
+  background-color: white;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  min-width: 210px;
+  transition: opacity 0.2s ease-in-out;
+  aspect-ratio: 2 / 1;
+  object-fit: contain;
+
+  width: 33.333%;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}
