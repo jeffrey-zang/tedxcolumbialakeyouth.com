@@ -46,7 +46,7 @@ function App() {
             <Footer />
           </div>
         } />
-        <Route path='/about' element={<About />} />
+        <Route path='/about-ted' element={<About />} />
       </Routes>
       {/* <div ref={cursor} className='cursor'></div> */}
     </div>

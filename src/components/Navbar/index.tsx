@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom'
 import Title from '../../components/Title'
 import Socials from '../Socials'
 
-const Links = () => {
+export const Links = (style:any) => {
 
   return (
     <>
-      <a href='/#info' className='no-styles'>Event Info</a>
-      <Link to='/about' className='no-styles'>About TED</Link>
-      <p>Our Team</p>
-      <p>Sponsors</p>
+      <a href='/#info' className={style.style}>Event Info</a>
+      <Link to='/about-ted' className={style.style}>About TED</Link>
+      <Link to='/partners' className={style.style}>Partners</Link>
+      <Link to='/our-team' className={style.style}>Our Team</Link>
     </>
   )
 }
@@ -28,7 +28,7 @@ const Navbar = () => {
           <Title />
         </a>
         <div className='links hidden lg:flex items-center'>
-          <Links />
+          <Links style='no-styles' />
           {/* <button className='red text-xl'>Apply now</button> */}
         </div>
         <div className='block lg:hidden text-[18px] leading-[18px] z-10'>
@@ -37,7 +37,7 @@ const Navbar = () => {
         <div onClick={() => setOpen(!isOpen)} className={`navbar-popup fixed top-0 left-0 place-items-center h-[100dvh] w-screen grid`} style={{opacity: (isOpen ? "100" : "0"), pointerEvents: (isOpen ? "auto" : "none")}}>
           <div className='flex flex-col text-center gap-8 items-center'>
             <h3 className='text-2xl'>Navigation</h3>
-            <Links />
+            <Links style='no-styles' />
             <Socials />
           </div>
         </div>
