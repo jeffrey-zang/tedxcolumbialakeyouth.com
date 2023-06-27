@@ -1,6 +1,7 @@
 import Title from "../Title"
 import Socials from "../Socials"
 import { Links } from "../Navbar"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -26,9 +27,10 @@ const Footer = () => {
           <div className='flex flex-col flex-grow-0 gap-2 mt-2'>
             <a href='mailto:tedxcolumbialakeyouth@gmail.com'>Contact Us</a>
             <a href='https://www.ted.com/tedx/events/54927'>TED<sup>x</sup> Event Website</a>
-            <a>Privacy Policy</a>
-            <a>License</a>
-            <a>Code of Conduct</a>
+            {/* <a>Privacy Policy</a> */}
+            <Link to='/license'>License</Link>
+            <a href='https://bank.hackclub.com/donations/start/tedxcolumbialakeyouth'>Support Us! ✨</a>
+            {/* <a>Code of Conduct</a> */}
           </div>
         </div>
 

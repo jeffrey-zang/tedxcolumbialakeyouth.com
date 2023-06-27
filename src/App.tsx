@@ -1,11 +1,12 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Landing from './pages/Landing'
 import Info from './sections/Info'
 import Partners from './sections/Partners'
 
+import Landing from './pages/Landing'
 import About from './pages/About'
 import Team from './pages/Team'
+import License from './pages/License'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -25,6 +26,7 @@ function App() {
         } />
         <Route path='/about-ted' element={<About />} />
         <Route path='/our-team' element={<Team />} />
+        <Route path='/license' element={<License />} />
       </Routes>
       <Footer />
     </div>
