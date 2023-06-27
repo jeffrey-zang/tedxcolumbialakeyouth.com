@@ -1,0 +1,45 @@
+.human {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  &.href:hover .image {
+    cursor: pointer;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  .role {
+    font-style: italic;
+    font-size: 1.25rem;
+  }
+
+  .image {
+    aspect-ratio: 1 / 1;
+    object-fit: fill;
+    border-radius: 50%;
+    border: 2px solid #e5e7eb;
+    overflow: hidden;
+    width: 90%;
+    transition: border-radius 0.3s ease;
+
+    &:hover {
+      border-radius: 2rem;
+
+      img {
+        scale: 1.1;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: scale 0.3s ease;
+    }
+  }
+}

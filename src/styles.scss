@@ -21,6 +21,9 @@ html, #root, body {
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 h1, h2, h3, h4 {
   font-weight: bold;
@@ -88,15 +91,18 @@ button {
   }
 }
 
-.section {
+.typography {
   max-width: 90rem;
+  padding-left: 5%;
+  padding-right: 5%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section {
   display: flex;
   align-items: center;
   gap: 2rem;
-  padding-left: 5%;
-  padding-right: 5%;
 
   img {
     width: 30%;

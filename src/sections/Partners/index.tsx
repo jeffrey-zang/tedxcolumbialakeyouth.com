@@ -21,7 +21,7 @@ const partnerData = [
 
 const Partners = () => {
   return (
-    <div className='max-w-[90rem] px-[5%] mt-16 flex-col mx-auto' id='partners'>
+    <div className='typography mt-16 flex-col mx-auto' id='partners'>
       <h2 className='text-center'>Our Partners</h2>
       <div className='flex flex-col md:flex-row justify-center items-center gap-4 mt-8'>
         {partnerData.map((partner) => {

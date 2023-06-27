@@ -1,6 +1,6 @@
 import './Navbar.scss'
 import Hamburger from 'hamburger-react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Title from '../../components/Title'
 import Socials from '../Socials'
@@ -9,10 +9,10 @@ export const Links = (style:any) => {
 
   return (
     <>
-      <a href='/#info' className={style.style}>Event Info</a>
+      <a href='/#event-info' className={style.style}>Event Info</a>
       <Link to='/about-ted' className={style.style}>About TED</Link>
       <a href='/#partners' className={style.style}>Partners</a>
-      {/* <Link to='/our-team' className={style.style}>Our Team</Link> */}
+      <Link to='/our-team' className={style.style}>Our Team</Link>
     </>
   )
 }
@@ -20,16 +20,28 @@ export const Links = (style:any) => {
 const Navbar = () => {
 
   const [isOpen, setOpen] = useState(false)
+  const [top, setTop] = useState(true)
+
+  useEffect(() => {
+
+    const scrollHandler = () => {
+      setTop(window.scrollY <= 50)
+    }
+    window.addEventListener('scroll', scrollHandler, true);
+
+    return () => {
+      window.removeEventListener('scroll', scrollHandler, true);
+    };
+  }, []);
 
   return (
-    <div className='z-20 px-8 lg:px-12 fixed w-full top-0 bg-gray-950 navbar'>
+    <div className={`z-20 px-8 lg:px-12 sticky w-full top-0 bg-black navbar ${(top) ? "" : "active"}`}>
       <div className='flex py-[17px] lg:py-0 justify-between items-center'>
-        <a href='/#' className='no-styles text-white text-xl'>
+        <Link onClick={() => {document.body.scrollTop = document.documentElement.scrollTop = 0;}} to='/' className="no-styles text-[18px]">
           <Title />
-        </a>
+        </Link>
         <div className='links hidden lg:flex items-center'>
           <Links style='no-styles' />
-          {/* <button className='red text-xl'>Apply now</button> */}
         </div>
         <div className='block lg:hidden text-[18px] leading-[18px] z-10'>
           <Hamburger toggled={isOpen} toggle={setOpen} size={20}/>

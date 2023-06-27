@@ -3,7 +3,7 @@ import tedx from '../../assets/photos/tedx.jpg'
 const About = () => {
   return (
     <>
-    <div className='mt-[82px] pt-16 section'>
+    <div className='pt-16 section'>
       <div className='section-wrapper'>
         <h2>About TED<sup>x</sup>, x = independently organized event</h2>
         <p>

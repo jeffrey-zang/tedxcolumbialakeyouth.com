@@ -1,9 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 
 import Landing from './pages/Landing'
-import About from './pages/About'
 import Info from './sections/Info'
 import Partners from './sections/Partners'
+
+import About from './pages/About'
+import Team from './pages/Team'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -22,6 +24,7 @@ function App() {
           </div>
         } />
         <Route path='/about-ted' element={<About />} />
+        <Route path='/our-team' element={<Team />} />
       </Routes>
       <Footer />
     </div>

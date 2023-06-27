@@ -1,6 +1,11 @@
 .navbar {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom .3s ease;
+
+  &.active {
+    border-bottom: 1px solid gray;
+  }
   
   .links {
     gap: 1rem;
