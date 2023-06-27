@@ -20,9 +20,11 @@ function App() {
         <Route index element={
           <div>
             <Landing />
-            <Info />
-            <Partners />
-          </div>
+            <div className='animate-appear fill-mode-forwards'>
+              <Info />
+              <Partners />
+            </div>
+            </div>
         } />
         <Route path='/about-ted' element={<About />} />
         <Route path='/our-team' element={<Team />} />
