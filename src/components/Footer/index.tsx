@@ -1,18 +1,32 @@
 import Title from "../Title"
 import Socials from "../Socials"
 import { Links } from "../Navbar"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { useState } from "react"
 
 const Footer = () => {
+
+  const [bears, setBears] = useState(1)
+  const navigate = useNavigate()
+
   return (
     <div className='bg-[#000] mt-16 w-full'>
       <div className="typography flex flex-col md:flex-row p-[5%] gap-8 md:gap-0 pb-0 mx-auto">
         <div className='flex flex-col gap-2 w-full md:w-1/3'>
           <p className='text-dimmed text-sm uppercase'>Copyright © 2023</p>
-          <h2 className='text-xl font-normal'>
+          <h2 className='text-xl font-normal select-none' onClick={() => {
+            setBears(bears + 1)
+            document.getElementById('bear')!.style.opacity = `${bears / 10}`
+
+            if (bears === 9) {
+              setBears(1)
+              navigate('/our-bears')
+            }
+          }}>
             <Title />
           </h2>
           <Socials />
+          <p id='bear' className="opacity-[10%]">🐻</p>
         </div>
 
         <div className='w-full md:w-1/3'>

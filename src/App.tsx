@@ -7,6 +7,7 @@ import Landing from './pages/Landing'
 import About from './pages/About'
 import Team from './pages/Team'
 import License from './pages/License'
+import Bears from './pages/Bears'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -22,10 +23,11 @@ function App() {
             <Landing />
             <Info />
             <Partners />
-            </div>
+          </div>
         } />
         <Route path='/about-ted' element={<About />} />
         <Route path='/our-team' element={<Team />} />
+        <Route path='/our-bears' element={<Bears />} />
         <Route path='/license' element={<License />} />
       </Routes>
       <Footer />
