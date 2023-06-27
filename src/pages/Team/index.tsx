@@ -54,10 +54,10 @@ const Team = () => {
   ]
   
   return (
-    <div className='typography'>
+    <div className='mx-auto max-w-[110rem]'>
       <h2 className='text-center'>Meet the team</h2>
       <p className='text-center mb-8'>The individuals hard at work to make this event possible!</p>
-      <div className='flex justify-center flex-wrap gap-8'>
+      <div className='flex justify-center flex-wrap gap-12'>
         {
           humans.map((human) => {
             return (
