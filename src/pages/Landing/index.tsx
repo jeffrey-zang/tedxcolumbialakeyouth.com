@@ -1,4 +1,5 @@
 import wave from '../../assets/wave/wave.svg'
+import wavemobile from '../../assets/wave/wave-mobile.svg'
 import { useRef } from 'react'
 import './Landing.scss'
 import Title from '../../components/Title'
@@ -42,7 +43,8 @@ const Landing = () => {
   
   return (
     <div onMouseMove={(e) => handleMove(e)} onTouchMove={(e) => handleMove(e.touches[0])}>
-      <img src={wave} alt='wave' className='absolute animate-fadein opacity-0 fill-mode-forwards bottom-0 w-full z-10' />
+      <img src={wave} alt='wave' className='hidden md:block absolute bottom-0 w-full z-10' />
+      <img src={wavemobile} alt='wave' className='block md:hidden absolute animate-fadein opacity-0 fill-mode-forwards bottom-0 w-full z-10' />
       <div className='landing bg-gray-100 right text-gray-900 h-full'>
         <div className='h-full flex flex-col md:gap-0 gap-4 justify-center'>
           <h2 className='animate-fadein opacity-0 fill-mode-forwards font-normal'><Title /></h2>
