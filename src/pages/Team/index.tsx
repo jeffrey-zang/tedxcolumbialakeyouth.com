@@ -12,7 +12,7 @@ const Team = (bears:any) => {
   
   let humans;
 
-  if (bears) {
+  if (bears.bears) {
     humans = [
       {
         name: "Hooman Reza Nezhad",
@@ -103,8 +103,8 @@ const Team = (bears:any) => {
   
   return (
     <div className='mx-auto max-w-[110rem]'>
-      <h2 className='text-center'>Meet the {(bears) ? "bears" : "team"}</h2>
-      <p className='text-center mb-8'>The {(bears) ? "fluffy animals" : "individuals"} hard at work to make this event possible!</p>
+      <h2 className='text-center'>Meet the {(bears.bears) ? "bears" : "team"}</h2>
+      <p className='text-center mb-8'>The {(bears.bears) ? "fluffy animals" : "individuals"} hard at work to make this event possible!</p>
       <div className='flex justify-center flex-wrap gap-12'>
         {
           humans.map((human) => {

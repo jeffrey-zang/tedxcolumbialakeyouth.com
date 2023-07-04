@@ -26,7 +26,7 @@ function App() {
           </div>
         } />
         <Route path='/about-ted' element={<About />} />
-        <Route path='/our-team' element={<Team />} />
+        <Route path='/our-team' element={<Team bears={false} />} />
         <Route path='/our-bears' element={<Bears />} />
         <Route path='/license' element={<License />} />
       </Routes>

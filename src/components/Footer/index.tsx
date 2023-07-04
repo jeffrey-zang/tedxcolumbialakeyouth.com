@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="typography flex flex-col md:flex-row p-[5%] gap-8 md:gap-0 pb-0 mx-auto">
         <div className='flex flex-col gap-2 w-full md:w-1/3'>
           <p className='text-dimmed text-sm uppercase'>Copyright © 2023</p>
-          <h2 className='text-xl font-normal select-none' onClick={() => {
+          <h2 className='text-xl font-normal select-none cursor-pointer' onClick={() => {
             setBears(bears + 1)
             document.getElementById('bear')!.style.opacity = `${bears / 10}`
 
