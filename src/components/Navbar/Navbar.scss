@@ -20,7 +20,7 @@
 
       &:after {
         position: absolute;
-        bottom: 0;
+        top: 0;
         left: 0;
         right: 0;
         margin: auto;
@@ -34,7 +34,6 @@
 
       &:hover {
         color: lighten(#c20125, 30%);
-        background-color: #232323;
 
         &:after {
           width: 100%;

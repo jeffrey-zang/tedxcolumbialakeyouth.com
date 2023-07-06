@@ -6,14 +6,6 @@ import hcb from '../../assets/partners/hcb.svg'
 
 const partnerData = [
   {
-    "logo": kpl,
-    "href": "https://www.kpl.org"
-  },
-  {
-    "logo": kitchener,
-    "href": "https://www.tedxkitchenered.com"
-  },
-  {
     "logo": hcb,
     "href": "https://www.hackclub.com"
   }
