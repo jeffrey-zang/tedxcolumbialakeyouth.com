@@ -1,7 +1,4 @@
 import './Partners.scss'
-
-import kpl from '../../assets/partners/kpl-logo.svg'
-import kitchener from '../../assets/partners/kitchener.jpeg'
 import hcb from '../../assets/partners/hcb.svg'
 
 const partnerData = [
