@@ -7,6 +7,8 @@ import Jeffrey from "../../assets/headshots/jeffrey.jpg"
 import Aasha from "../../assets/headshots/aasha.jpeg"
 import Shawn from "../../assets/headshots/shawn.jpeg"
 import Lauren from "../../assets/headshots/lauren.jpg"
+import Liam from "../../assets/headshots/liam.jpeg"
+import Ayush from "../../assets/headshots/ayush.jpeg"
 
 const Team = (bears:any) => {
   
@@ -97,6 +99,18 @@ const Team = (bears:any) => {
         role: "Marketing and Design",
         image: Lauren,
       },
+      {
+        name: "Liam McNamara",
+        role: "Sponsorships and Finance",
+        image: Liam,
+        href: "https://www.linkedin.com/in/liam-mcnamara-739775221/"
+      },
+      {
+        name: "Ayush Malhotra",
+        role: "Sponsorships and Finance",
+        image: Ayush,
+        href: "https://www.linkedin.com/in/ayush-malhotra-4416b51a5/"
+      }
     ]
   }
 
