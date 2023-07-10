@@ -19,7 +19,7 @@ const Partners = () => {
           )
         })}
       </div>
-      <p className='text-center mt-8'>Want to support us? Check out our <a href='https://bank.hackclub.com/donations/start/tedxcolumbialakeyouth'>donation page.</a></p>
+      <p className='text-center mt-8'>Want to support us? Check out our <a href='https://bank.hackclub.com/donations/start/tedxcolumbialakeyouth'>donation page</a> or contact us <a href='mailto:business@tedxcolumbialakeyouth.com'>here</a>.</p>
     </div>
   )
 }

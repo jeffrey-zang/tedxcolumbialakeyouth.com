@@ -29,7 +29,18 @@ const Info = () => {
       <div className='section typography'>
         <div className='section-wrapper'>
           <h2>Applications Opening Soon</h2>
-          <p>Want to get inspired or make an impact on the youth innovators of the future? Participate in the event as a speaker or attendee! Keep in touch through our <a href='https://www.instagram.com/ted<sup>x</sup>columbialakeyouth/'>Instagram</a>. Applications will be opening in the coming months, so keep an eye out! Have questions? Reach out to us <a href='mailto:ted<sup>x</sup>columbialakeyouth@gmail.com'>here!</a></p>
+          <p>Want to get inspired or make an impact on the youth innovators of the future? Participate in the event as a speaker or attendee! Keep in touch through our <a href='https://www.instagram.com/ted<sup>x</sup>columbialakeyouth/'>Instagram</a>. Applications will be opening in the coming months, so keep an eye out! <br/><br/>Have questions? Reach out to us <a href='mailto:questions@tedxcolumbialakeyouth.com'>here</a> or at any of these emails:</p>
+          <p className='font-bold'>Business Opportunities</p>
+          <a href='mailto:business@tedxcolumbialakeyouth.com'>business@tedxcolumbialakeyouth.com</a>
+          <br/><br/>
+          <p className='font-bold'>Questions and Inquiries</p>
+          <a href='mailto:questions@tedxcolumbialakeyouth.com'>questions@tedxcolumbialakeyouth.com</a>
+          <br/><br/>
+          <p className='font-bold'>Marketing Opportunities</p>
+          <a href='mailto:marketing@tedxcolumbialakeyouth.com'>marketing@tedxcolumbialakeyouth.com</a>
+          <br/><br/>
+          <p className='font-bold'>Community Involvement</p>
+          <a href='mailto:community@tedxcolumbialakeyouth.com'>community@tedxcolumbialakeyouth.com</a>
         </div>
       </div>
     </div>
