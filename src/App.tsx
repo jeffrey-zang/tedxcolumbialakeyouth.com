@@ -21,8 +21,10 @@ function App() {
         <Route index element={
           <div>
             <Landing />
-            <Info />
-            <Partners />
+            <div className='bg-gradient-to-b from-black via-darkred to-black'>
+              <Info />
+              <Partners />
+            </div>
           </div>
         } />
         <Route path='/about-ted' element={<About />} />

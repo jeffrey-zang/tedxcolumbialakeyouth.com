@@ -1,14 +1,14 @@
-import wavedown from '../../assets/wave/wave-down.svg'
-import wavemobile from '../../assets/wave/wave-mobile-down.svg'
 import lake from '../../assets/photos/cly.jpg'
 import tedx from '../../assets/photos/TEDx-2.jpg'
 import Title from '../../components/Title'
 
 const Info = () => {
-  return (
-    <div className='z-40 about mt-[calc(99dvh-82px)] bg-gradient-to-b from-black via-darkred to-black' id='event-info'>
-      <img src={wavedown} alt='wavedown' className='hidden md:block w-full' />
-      <img src={wavemobile} alt='wave' className='block md:hidden w-full' />
+  return ( 
+    <div className='z-40 about mt-[calc(100dvh-83px)]' id='event-info'>
+      <div className='h-8 bg-red opacity-90'></div>
+      <div className='h-8 bg-red opacity-70'></div>
+      <div className='h-8 bg-red opacity-50'></div>
+      <div className='h-8 bg-red opacity-20'></div>
       <div className='section typography mt-16'>
         <div className='section-wrapper'>
           <h2>What is <Title />?</h2>
