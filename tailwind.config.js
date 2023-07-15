@@ -18,9 +18,9 @@ export default {
         dimmed: "#999"
       },
       animation: {
-        'fadedown': "fadedown 2.5s ease forwards",
-        "fadeup": "fadeup 1s ease 2s forwards",
-        'fadein': "fadein 1s ease 2s forwards",
+        'fadedown': "fadedown 1.5s ease forwards",
+        "fadeup": "fadeup 0.75s ease 1s forwards",
+        'fadein': "fadein 0.75s ease 1s forwards",
         "appear": "appear 1s ease 2s forwards"
       },
       keyframes: {
