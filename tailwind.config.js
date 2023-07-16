@@ -10,8 +10,8 @@ export default {
         DEFAULT: "300ms"
       },
       colors: {
-        red: "#c20025",
-        darkred: "#4d1028",
+        red: "#FF0A34",
+        darkred: "#3F0D21",
         black: "#111827",
         white: "#e5e7eb",
         gradienttransition: "#451128",

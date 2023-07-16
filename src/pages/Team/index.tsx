@@ -1,14 +1,14 @@
 import './Team.scss'
 
-import Hooman from "../../assets/headshots/hooman.jpg"
-import Yoyo from "../../assets/headshots/yoyo.png"
-import Victor from "../../assets/headshots/victor.jpeg"
-import Jeffrey from "../../assets/headshots/jeffrey.jpg"
-import Aasha from "../../assets/headshots/aasha.jpeg"
-import Shawn from "../../assets/headshots/shawn.jpeg"
-import Lauren from "../../assets/headshots/lauren.jpg"
-import Liam from "../../assets/headshots/liam.jpeg"
-import Ayush from "../../assets/headshots/ayush.jpeg"
+import Hooman from "../../assets/headshots/hooman.webp"
+import Yoyo from "../../assets/headshots/yoyo.webp"
+import Victor from "../../assets/headshots/victor.webp"
+import Jeffrey from "../../assets/headshots/jeffrey.webp"
+import Aasha from "../../assets/headshots/aasha.webp"
+import Shawn from "../../assets/headshots/shawn.webp"
+import Lauren from "../../assets/headshots/lauren.webp"
+import Liam from "../../assets/headshots/liam.webp"
+import Ayush from "../../assets/headshots/ayush.webp"
 
 const Team = () => {
     const humans = [
@@ -45,7 +45,6 @@ const Team = () => {
       name: "Shawn Xiao",
       role: "Marketing and Design",
       image: Shawn,
-      href: "https://www.linkedin.com/in/shawn-xiao-1b1b1b1b1/"
     }, 
     {
       name: "Lauren Hsu",

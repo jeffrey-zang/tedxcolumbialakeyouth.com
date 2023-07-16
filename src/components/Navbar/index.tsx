@@ -44,7 +44,7 @@ const Navbar = () => {
           <Links style='no-styles' />
         </div>
         <div className='block lg:hidden text-[18px] leading-[18px] z-10'>
-          <Hamburger toggled={isOpen} toggle={setOpen} size={20}/>
+          <Hamburger toggled={isOpen} toggle={setOpen} size={20} label='show navbar' />
         </div>
         <div onClick={() => setOpen(!isOpen)} className={`navbar-popup fixed top-0 left-0 place-items-center h-[100dvh] w-screen grid`} style={{opacity: (isOpen ? "100" : "0"), pointerEvents: (isOpen ? "auto" : "none")}}>
           <div className='flex flex-col text-center gap-8 items-center'>

@@ -22,7 +22,7 @@
     background: radial-gradient(circle, rgba(50,61,84,1) 0%, rgba(17,24,39,1) 35%);
   }
   
-  h1, h2, h3 {
+  .h1, .h2, .h3 {
     width: 100vw;
     text-align: center;
 
@@ -30,21 +30,19 @@
       text-align: center;
     }
   }
-  h1 {
+  .h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 7rem;
     line-height: 7rem; 
-  } h2 {
+  } .h2 {
     margin-bottom: 2rem;
     font-size: 2.25rem;
-    color: #999;
     padding-left: 10%;
     padding-right: 10%;
-  } h3 {
+  } .h3 {
     font-size: 1.75rem;
     margin-top: 2rem;
-    color: #999;
     font-weight: normal;
     padding-left: 10%;
     padding-right: 10%;
@@ -53,12 +51,12 @@
 
 @media screen and (max-width: 1024px) {
   .landing {
-    h1 {
+    .h1 {
       font-size: 5rem;
       line-height: 5rem;
-    } h2 {
+    } .h2 {
       font-size: 1.75rem;
-    } h3 {
+    } .h3 {
       font-size: 1.5rem;
     }
   }
@@ -66,16 +64,16 @@
 
 @media screen and (max-width: 768px) {
   .landing {
-    h1, h2, h3 {
+    .h1, .h2, .h3 {
       margin: 0;
       width: 100vw;
     }
-    h1 {
+    .h1 {
       font-size: 4rem;
       line-height: 4.5rem;
-    } h2 {
+    } .h2 {
       font-size: 1.5rem;
-    } h3 {
+    } .h3 {
       font-size: 1.25rem;
     }
   }
@@ -83,12 +81,12 @@
 
 @media screen and (max-width: 550px) {
   .landing {
-    h1 {
+    .h1 {
       font-size: 10dvw;
       line-height: 11dvw;
-    } h2 {
+    } .h2 {
       font-size: 5dvw;
-    } h3 {
+    } .h3 {
       font-size: 5dvw;
     }
   }

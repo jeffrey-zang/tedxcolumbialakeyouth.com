@@ -52,18 +52,18 @@ const Landing = () => {
         }}
         className='absolute bottom-0 mt-[70dvh] z-30'
       />
-      <div className='landing bg-gray-100 right text-gray-900 h-full'>
+      <div className='landing bg-gray-100 right h-full'>
         <div className='h-full flex flex-col md:gap-0 gap-4 justify-center'>
-          <h2 className='animate-fadein opacity-0 fill-mode-forwards font-normal'><Title /></h2>
-          <h1 className='animate-fadedown'>Let's <br className='block md:hidden'/>reimagine <br/><span className='gradient-text bg-gradient-to-r from-orange-300 via-red to-orange-300'>empowerment</span></h1>
-          <h3 className='animate-fadein opacity-0 fill-mode-forwards'>October 7, 2023 • University of Waterloo</h3>
+          <p className='h2 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards font-normal'><Title /></p>
+          <p className='h1 !text-gray-900 animate-fadedown'>Let's <br className='block md:hidden'/>reimagine <br/><span className='gradient-text bg-gradient-to-r from-orange-300 via-red to-orange-300'>empowerment</span></p>
+          <p className='h3 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards'>October 7, 2023 • University of Waterloo</p>
         </div>
       </div>
-      <div ref={ref} className='landing bg-gray-900 left text-gray-100 h-full'>
+      <div ref={ref} className='landing bg-gray-900 left !text-gray-100 h-full'>
         <div className='h-full flex flex-col md:gap-0 gap-4 justify-center'>
-          <h2 className='animate-fadein opacity-0 fill-mode-forwards font-normal'><Title /></h2>
-          <h1 className='animate-fadedown'>Let's <br className='block md:hidden'/>reinvent <br/><span className='gradient-text bg-gradient-to-r from-red via-purple-400 to-red'>education</span></h1>
-          <h3 className='animate-fadein opacity-0 fill-mode-forwards'>October 7, 2023 • University of Waterloo</h3>
+        <p className='h2 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards font-normal'><Title /></p>
+          <p className='h1 animate-fadedown'>Let's <br className='block md:hidden'/>reinvent <br/><span className='gradient-text bg-gradient-to-r from-red via-purple-400 to-red'>education</span></p>
+          <p className='h3 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards'>October 7, 2023 • University of Waterloo</p>
         </div>
       </div>
     </div>

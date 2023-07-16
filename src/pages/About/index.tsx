@@ -1,4 +1,4 @@
-import tedx from '../../assets/photos/tedx.jpg'
+import tedx from '../../assets/photos/tedx.webp'
 
 const About = () => {
   return (
