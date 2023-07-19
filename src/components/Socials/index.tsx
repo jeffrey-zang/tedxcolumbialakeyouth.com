@@ -1,4 +1,5 @@
 import { BsInstagram } from 'react-icons/bs'
+import { SiTwitter } from 'react-icons/si'
 
 const Socials = () => {
   return (
@@ -6,12 +7,9 @@ const Socials = () => {
       <div onClick={() => window.open('https://www.instagram.com/tedxcolumbialakeyouth/')}>
         <BsInstagram className="text-white hover:text-red cursor-pointer transition-colors" />
       </div>
-      {/* <div>
-        <i className="bi bi-linkedin text-white hover:text-red cursor-pointer transition-colors"></i>
+      <div onClick={() => window.open('https://twitter.com/TEDxColumbiaY')}>
+        <SiTwitter className="text-white hover:text-red cursor-pointer transition-colors" />
       </div>
-      <div>
-        <i className="bi bi-twitter text-white hover:text-red cursor-pointer transition-colors"></i>
-      </div> */}
     </div>
   )
 }
