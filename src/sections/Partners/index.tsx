@@ -16,9 +16,9 @@ const partnerData = [
 
 const Partners = () => {
   return (
-    <div className='typography mt-16 flex-col mx-auto' id='partners'>
+    <div className='typography mt-16 flex-col mx-auto scroll-m-28' id='partners'>
       <h2 className='text-center'>Our Partners</h2>
-      <img key='-1' className={`partner-logo p-4 !w-1/2 mx-auto`} src={uw} alt='sponsor' onClick={() => window.open('https://uwaterloo.ca)')}></img>
+      <img key='-1' className={`partner-logo p-4 !w-1/2 mx-auto`} src={uw} alt='sponsor' onClick={() => window.open('https://uwaterloo.ca')}></img>
       <div className='flex flex-col md:flex-row justify-center items-center gap-4 mt-8'>
         {partnerData.map((partner, index) => {
           return (
