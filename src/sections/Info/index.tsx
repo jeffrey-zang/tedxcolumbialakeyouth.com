@@ -28,8 +28,8 @@ const Info = () => {
       </div>
       <div className='section typography'>
         <div className='section-wrapper'>
-          <h2>Applications Opening Soon</h2>
-          <p>Want to get inspired or make an impact on the youth innovators of the future? Participate in the event as a speaker or attendee! Keep in touch through our <a href='https://www.instagram.com/ted<sup>x</sup>columbialakeyouth/'>Instagram</a>. Applications will be opening in the coming months, so keep an eye out! <br/><br/>Have questions? Reach out to us <a href='mailto:questions@tedxcolumbialakeyouth.com'>here</a> or at any of these emails:</p>
+          <h2><a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer'>Applications</a> Open Now!</h2>
+          <p>Want to get inspired or make an impact on the youth innovators of the future? <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer'>Participate in the event</a> as a speaker or attendee and keep in touch through our <a href='https://www.instagram.com/ted<sup>x</sup>columbialakeyouth/'>Instagram</a>. Apply <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer'>here</a>!<br/><br/>Have questions? Reach out to us <a href='mailto:questions@tedxcolumbialakeyouth.com'>here</a> or at any of these emails:</p>
           <p className='font-bold'>Business Opportunities</p>
           <a href='mailto:business@tedxcolumbialakeyouth.com'>business@tedxcolumbialakeyouth.com</a>
           <br/><br/>
