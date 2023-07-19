@@ -41,6 +41,9 @@ a:not(.no-styles) {
   color: lighten(#c20025, 10%);
   font-weight: 600;
   cursor: pointer;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 
   &:hover {
     text-decoration: underline;
@@ -98,6 +101,8 @@ button {
   padding-right: 5%;
   margin-left: auto;
   margin-right: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .section {
