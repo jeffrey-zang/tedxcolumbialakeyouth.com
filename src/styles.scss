@@ -72,7 +72,7 @@ a:not(.no-styles) {
 //   }
 // }
 
-button {
+button:not(.no-styles) {
   padding: 1rem 1.5rem;
   border-radius: 2rem;
   background-color: #444;
