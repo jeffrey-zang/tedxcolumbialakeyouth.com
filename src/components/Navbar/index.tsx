@@ -13,7 +13,7 @@ export const Links = (style:any) => {
       <Link to='/about-ted' className={style.style}>About TED</Link>
       <a href='/#partners' className={style.style}>Partners</a>
       <Link to='/our-team' className={style.style}>Our Team</Link>
-      <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer' className={`font-bold !text-red ${style.style}`}>Apply Now!</a>
+      <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer' className={`font-bold !text-red ${style.style}`}>Register Now!</a>
     </>
   )
 }

@@ -26,7 +26,7 @@ const Footer = () => {
         <div className='w-full md:w-1/3'>
           <p className="text-sm uppercase text-dimmed">Important Links</p>
           <div className='flex flex-col flex-grow-0 gap-2 mt-2'>
-            <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer' className='!text-purple-400'>Apply Now!</a>
+            <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer' className='!text-purple-400'>Register Now!</a>
             <a href='mailto:questions@tedxcolumbialakeyouth.com'>Contact Us</a>
             <a href='https://www.ted.com/tedx/events/54927'>TED<sup>x</sup> Event Website</a>
             {/* <a>Privacy Policy</a> */}
