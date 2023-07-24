@@ -46,6 +46,7 @@ const Team = () => {
       name: "Aasha Khan",
       role: "Operations",
       image: Aasha,
+      href: "https://www.linkedin.com/in/aasha-khan-3a2294250/"
     },
     {
       name: "Shawn Xiao",
@@ -92,7 +93,7 @@ const Team = () => {
           humans.map((human) => {
             return (
               <div className={`human w-full md:w-1/3 lg:w-1/4 ${(human.href) ? "href" : ""}`}>
-                <div className='image' onClick={() => {if (human.href && !bears) {window.open(human.href)} else {window.open(bearLinks[Math.floor(Math.random() * bearLinks.length)])}}}><img src={(bears) ? `https://placebear.com/${(Math.random() > 0.8) ? 'g/' : ""}${Math.round(Math.random() * 600 + 400)}/${Math.round(Math.random() * 600 + 400)}` : human.image} alt={human.name} /></div>
+                <div className='image' onClick={() => {if (human.href && !bears) {window.open(human.href)}; if (human.href && bears) {window.open(bearLinks[Math.floor(Math.random() * bearLinks.length)])}}}><img src={(bears) ? `https://placebear.com/${(Math.random() > 0.8) ? 'g/' : ""}${Math.round(Math.random() * 600 + 400)}/${Math.round(Math.random() * 600 + 400)}` : human.image} alt={human.name} /></div>
                 <h3>{human.name}</h3>
                 <p className='role'>{human.role}</p>
               </div>
