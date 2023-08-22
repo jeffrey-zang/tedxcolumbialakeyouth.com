@@ -36,7 +36,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`z-40 px-8 lg:px-12 sticky w-full top-0 bg-black navbar ${(top) ? "" : "active"}`}>
+    <div className={`z-50 px-8 lg:px-12 sticky w-full top-0 bg-black navbar ${(top) ? "" : "active"}`}>
       <div className='flex py-[17px] lg:py-0 justify-between items-center'>
         <Link onClick={() => {document.body.scrollTop = document.documentElement.scrollTop = 0;}} to='/' className="no-styles text-[18px]">
           <Title />
