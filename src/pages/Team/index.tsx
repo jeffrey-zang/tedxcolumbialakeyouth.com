@@ -36,17 +36,17 @@ const Team = () => {
       image: Victor,
       href: "https://www.linkedin.com/in/victor-feng1/"
     },
+    { 
+      name: "Aasha Khan",
+      role: "Co-Organizer",
+      image: Aasha,
+      href: "https://www.linkedin.com/in/aasha-khan-3a2294250/"
+    },
     {
       name: "Jeffrey Zang",
       role: "Website Manager",
       image: Jeffrey,
       href: "https://www.linkedin.com/in/jeffreyzang2007/"
-    },
-    { 
-      name: "Aasha Khan",
-      role: "Operations",
-      image: Aasha,
-      href: "https://www.linkedin.com/in/aasha-khan-3a2294250/"
     },
     {
       name: "Shawn Xiao",
