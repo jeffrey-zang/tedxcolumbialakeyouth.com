@@ -58,7 +58,7 @@ const Landing = () => {
           <p className='h1 !text-gray-900 animate-fadedown'>Let's <br className='block md:hidden'/>reimagine <br/><span className='gradient-text bg-gradient-to-r from-orange-300 via-red to-orange-300'>empowerment</span></p>
           <p className='h3 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards z-30'>
             October 14, 2023 • University of Waterloo<br/>
-            <button className='red mt-8 !text-md !p-4 md:!text-2xl md:!p-6' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register now!</button>
+            <button className='red mt-8 ' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register now!</button>
           </p>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Landing = () => {
           <p className='h1 animate-fadedown'>Let's <br className='block md:hidden'/>reinvent <br/><span className='gradient-text bg-gradient-to-r from-red via-purple-400 to-red'>education</span></p>
           <p className='h3 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards -z-30'>
             October 14, 2023 • University of Waterloo<br/>
-            <button className='red mt-8 !text-md !p-4 md:!text-2xl md:!p-6' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register now!</button>
+            <button className='red mt-8 ' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register now!</button>
           </p>
         </div>
       </div>

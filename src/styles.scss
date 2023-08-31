@@ -74,12 +74,14 @@ a:not(.no-styles) {
 
 button:not(.no-styles) {
   padding: 1rem 1.5rem;
-  border-radius: 2rem;
+  border-radius: 3rem;
   background-color: #444;
   color: #e5e7eb;
   transition: 0.3s background-color ease;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: bold;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 
   &:hover {
     background-color: #333;
