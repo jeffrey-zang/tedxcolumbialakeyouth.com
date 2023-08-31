@@ -6,18 +6,16 @@ import './Info.scss'
 
 const Info = () => {
 
-  const [days, setDays] = useState<string>("00")
-  const [hours, setHours] = useState<string>("00")
-  const [minutes, setMinutes] = useState<string>("00")
-  const [seconds, setSeconds] = useState<string>("00")
+  const [days, setDays] = useState<any>(0)
+  const [hours, setHours] = useState<any>(0)
+  const [minutes, setMinutes] = useState<any>(0)
+  const [seconds, setSeconds] = useState<any>(0)
 
   const countDownDate = new Date("Oct 14, 2023 10:00:00").getTime();
 
   const x = setInterval(function() {
-
-    const now = new Date().getTime();
       
-    const distance = countDownDate - now;
+    const distance = countDownDate - new Date().getTime();
       
     if (distance < 0) {
       clearInterval(x);

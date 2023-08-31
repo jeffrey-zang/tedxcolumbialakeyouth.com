@@ -9,6 +9,7 @@ import Shawn from "../../assets/headshots/shawn.webp"
 import Lauren from "../../assets/headshots/lauren.webp"
 import Liam from "../../assets/headshots/liam.webp"
 import Ayush from "../../assets/headshots/ayush.webp"
+import Cindy from "../../assets/headshots/cindy.jpg"
 
 import { useState } from 'react'
 
@@ -47,6 +48,12 @@ const Team = () => {
       role: "Website Manager",
       image: Jeffrey,
       href: "https://www.linkedin.com/in/jeffreyzang2007/"
+    },
+    {
+      name: "Cindy Cheng",
+      role: "Logistics",
+      image: Cindy,
+      href: "https://www.linkedin.com/in/cindy-chengg/"
     },
     {
       name: "Shawn Xiao",
