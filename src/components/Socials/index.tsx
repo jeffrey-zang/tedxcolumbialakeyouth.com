@@ -1,15 +1,17 @@
-import { BsInstagram } from 'react-icons/bs'
-import { SiTwitter } from 'react-icons/si'
+import socialsData from "../../data/Socials.data"
 
 const Socials = () => {
   return (
     <div className='flex gap-2'>
-      <div onClick={() => window.open('https://www.instagram.com/tedxcolumbialakeyouth/')}>
-        <BsInstagram className="text-white hover:text-red cursor-pointer transition-colors" />
-      </div>
-      <div onClick={() => window.open('https://twitter.com/TEDxColumbiaY')}>
-        <SiTwitter className="text-white hover:text-red cursor-pointer transition-colors" />
-      </div>
+      {
+        socialsData.map((social) => {
+          return (
+            <div onClick={() => window.open(social.href)} className='hover:text-red transition-colors cursor-pointer'>
+              {social.icon}
+            </div>
+          )
+        })
+      }
     </div>
   )
 }
