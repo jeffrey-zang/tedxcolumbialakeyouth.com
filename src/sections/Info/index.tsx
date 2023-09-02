@@ -41,25 +41,25 @@ const Info = () => {
 
       <div className='flex flex-col items-center my-20'>
         <h3 className='text-dimmed text-2xl'>T-MINUS</h3>
-        <div className='flex items-center timer-container'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center timer-container'>
           <div className='timer hover:scale-110 hover:rotate-6 hover:-translate-x-5'>
-            <div>{days}</div>
-            <h3>DAYS</h3>
+            <div className='text-[4rem] xl:text-[6rem]'>{days}</div>
+            <h3 className='text-[1.5rem]'>DAYS</h3>
           </div>
           <div className='timer hover:scale-110 hover:-rotate-3 hover:-translate-y-4'>
-            <div>{hours}</div>
-            <h3>HRS</h3>
+            <div className='text-[4rem] xl:text-[6rem]'>{hours}</div>
+            <h3 className='text-[1.5rem]'>HRS</h3>
           </div>
           <div className='timer hover:scale-110 hover:rotate-3 hover:-translate-x-4 hover:translate-y-4'>
-            <div>{minutes}</div>
-            <h3>MINS</h3>
+            <div className='text-[4rem] xl:text-[6rem]'>{minutes}</div>
+            <h3 className='text-[1.5rem]'>MINS</h3>
           </div>
           <div className='timer hover:scale-110 hover:-rotate-3 hover:translate-y-8 hover:-translate-x-4'>
-            <div>{seconds}</div>
-            <h3>SECS</h3>
+            <div className='text-[4rem] xl:text-[6rem]'>{seconds}</div>
+            <h3 className='text-[1.5rem]'>SECS</h3>
           </div>
         </div>
-        <h3 className='text-dimmed text-2xl font-normal'>until <Title /></h3>
+        <h3 className='text-dimmed text-2xl font-normal text-center'>until <Title /></h3>
       </div>
 
       <div className='section typography mt-20'>
