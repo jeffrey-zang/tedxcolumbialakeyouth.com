@@ -3,5 +3,5 @@ export interface ScheduleData {
   title: string;
   time: string;
   location?: string;
-  description?: string;
+  description?: JSX.Element;
 }
