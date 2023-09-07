@@ -3,6 +3,7 @@ import tedx from '../../assets/photos/TEDx-2.webp'
 import Title from '../../components/Title'
 import { useState } from 'react'
 import './Info.scss'
+import Schedule from '../../components/Schedule'
 
 const Info = () => {
 
@@ -38,6 +39,8 @@ const Info = () => {
       <div className='h-8 bg-[#c20025] opacity-70'></div>
       <div className='h-8 bg-[#c20025] opacity-50'></div>
       <div className='h-8 bg-[#c20025] opacity-20'></div>
+
+      <Schedule />
 
       <div className='flex flex-col items-center my-20'>
         <h3 className='text-dimmed text-2xl'>T-MINUS</h3>
