@@ -6,14 +6,12 @@ const Schedule = () => {
   const [modalTitle, setModalTitle] = useState<string>("");
   const [modalDescription, setModalDescription] = useState<JSX.Element>(<></>);
   const [modalTime, setModalTime] = useState<string>("");
-  const [modalType, setModalType] = useState<string>("");
   const [modalLocation, setModalLocation] = useState<string>("");
   const [modalShow, setModalShow] = useState<boolean>(false);
 
   const handleClick = (item: ScheduleData) => {
     setModalTitle(item.title);
     setModalTime(item.time);
-    setModalType(item.type)
     setModalShow(true);
     if (item.description) {
       setModalDescription(item.description);
