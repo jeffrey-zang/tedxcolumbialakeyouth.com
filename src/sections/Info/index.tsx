@@ -3,7 +3,6 @@ import tedx from '../../assets/photos/TEDx-2.webp'
 import Title from '../../components/Title'
 import { useState } from 'react'
 import './Info.scss'
-import Schedule from '../../components/Schedule'
 
 const Info = () => {
 
