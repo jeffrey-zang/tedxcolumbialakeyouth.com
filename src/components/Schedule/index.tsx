@@ -3,22 +3,18 @@ import { useState } from "react";
 import { ScheduleData } from "../../types/schedule";
 
 const Schedule = () => {
-  const [modalTitle, setModalTitle] = useState<string>("");
-  const [modalDescription, setModalDescription] = useState<JSX.Element>(<></>);
-  const [modalTime, setModalTime] = useState<string>("");
-  const [modalLocation, setModalLocation] = useState<string>("");
   const [modalShow, setModalShow] = useState<boolean>(false);
+  const [modalData, setModalData] = useState<ScheduleData>({
+    type: "",
+    title: "",
+    time: "",
+    location: "",
+    description: <></>  
+  });
 
   const handleClick = (item: ScheduleData) => {
-    setModalTitle(item.title);
-    setModalTime(item.time);
+    setModalData(item);
     setModalShow(true);
-    if (item.description) {
-      setModalDescription(item.description);
-    }
-    if (item.location) {
-      setModalLocation(item.location);
-    }
   };
 
   return (
@@ -69,11 +65,11 @@ const Schedule = () => {
 
       <div className={`fixed top-0 left-0 z-50 w-screen h-screen transition-opacity cursor-pointer backdrop-blur-md ${modalShow ? "opacity-1 pointer-events-auto" : "opacity-0 pointer-events-none"}`} onClick={() => setModalShow(false)}>
         <div className='absolute top-1/2 left-1/2 -translate-x-1/2 bg-black border p-8 rounded-lg -translate-y-1/2 z-50'>
-          <h3 className="text-2xl">{modalTitle}</h3>
+          <h3 className="text-2xl">{modalData.title}</h3>
           <p className='mb-4'>
-            {modalTime} {modalLocation && <>@ {modalLocation}</>}
+            {modalData.time} {modalData.location && <>@ {modalData.location}</>}
           </p>
-          {modalDescription}
+          {modalData.description}
         </div>
       </div>
     </div>
