@@ -11,6 +11,7 @@ export const Links = (style:any) => {
     <>
       <a href='/#event-info' className={style.style}>Event Info</a>
       <Link to='/about-ted' className={style.style}>About TED</Link>
+      <Link to='/schedule' className={style.style}>Schedule</Link>
       <a href='/#partners' className={style.style}>Partners</a>
       <Link to='/our-team' className={style.style}>Our Team</Link>
       <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer' className={`font-bold !text-red ${style.style}`}>Register Now!</a>
@@ -36,15 +37,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`z-50 px-8 lg:px-12 sticky w-full top-0 bg-black navbar ${(top) ? "" : "active"}`}>
-      <div className='flex py-[17px] lg:py-0 justify-between items-center'>
+    <div className={`z-50 px-8 xl:px-12 sticky w-full top-0 bg-black navbar ${(top) ? "" : "active"}`}>
+      <div className='flex py-[17px] xl:py-0 justify-between items-center'>
         <Link onClick={() => {document.body.scrollTop = document.documentElement.scrollTop = 0;}} to='/' className="no-styles text-[18px]">
           <Title />
         </Link>
-        <div className='links hidden lg:flex items-center'>
+        <div className='links hidden xl:flex items-center'>
           <Links style='no-styles' />
         </div>
-        <div className='block lg:hidden text-[18px] leading-[18px] z-10'>
+        <div className='block xl:hidden text-[18px] leading-[18px] z-10'>
           <Hamburger toggled={isOpen} toggle={setOpen} size={20} label='show navbar' />
         </div>
         <div onClick={() => setOpen(!isOpen)} className={`navbar-popup fixed top-0 left-0 place-items-center h-[100dvh] w-screen grid`} style={{opacity: (isOpen ? "100" : "0"), pointerEvents: (isOpen ? "auto" : "none")}}>
