@@ -2,6 +2,8 @@ import './Partners.scss'
 import ycf from '../../assets/partners/ycf.png'
 import ked from '../../assets/partners/ked.jpg'
 import uw from '../../assets/partners/uw.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const partnerData = [
   {
@@ -38,13 +40,13 @@ const Partners = () => {
     <>
     <div className='typography mt-16 flex-col mx-auto scroll-m-28' id='partners'>
       <h2 className='text-center'>Our Partners</h2>
-      <img key='-1' className={`partner-logo p-4 !w-1/2 mx-auto`} src={uw} alt='sponsor' onClick={() => window.open('https://uwaterloo.ca')}></img>
+      <LazyLoadImage key='-1' src={uw} alt='sponsor' onClick={() => window.open('https://uwaterloo.ca')} effect='blur' wrapperClassName='partner-logo p-4 !w-1/2 mx-auto !grid place-items-center' />
       <div className='flex flex-col md:flex-row justify-center items-center gap-4 mt-8'>
         {partnerData.map((partner, index) => {
           return (
-            <img key={index} className={`partner-logo p-4 ${partner.class}`} src={partner.logo} alt='sponsor' onClick={() => window.open(partner.href)}></img>
-            )
-          })}
+            <LazyLoadImage key={index} effect='blur' wrapperClassName='partner-logo' className={`partner-logo p-4 ${partner.class}`} src={partner.logo} alt='sponsor' onClick={() => window.open(partner.href)} />
+          )
+        })}
       </div>
       <p className='text-center mt-8'>Want to support us? Check out our <a href='https://bank.hackclub.com/donations/start/tedxcolumbialakeyouth'>donation page</a> or contact us <a href='mailto:business@tedxcolumbialakeyouth.com'>here</a>.</p>
     </div>
