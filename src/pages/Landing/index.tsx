@@ -55,7 +55,7 @@ const Landing = () => {
       <div className='landing bg-gray-100 right h-full'>
         <div className='h-full flex flex-col md:gap-0 gap-4 justify-center'>
           <p className='h2 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards font-normal z-30'><Title /></p>
-          <p className='h1 !text-gray-900 animate-fadedown'>Let's <br className='block md:hidden'/>reimagine <br/><span className='gradient-text bg-gradient-to-r from-orange-300 via-red to-orange-300'>empowerment</span></p>
+          <p className='h1 !text-gray-900 animate-fadedown'>Let's <br className='block md:hidden'/>redesign <br/><span className='gradient-text bg-gradient-to-r from-orange-300 via-red to-orange-300'>empowerment</span></p>
           <p className='h3 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards z-30'>
             October 14, 2023 • University of Waterloo<br/>
             <button className='red mt-8 ' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register now!</button>
