@@ -3,6 +3,8 @@ import tedx from '../../assets/photos/TEDx-2.webp'
 import Title from '../../components/Title'
 import { useState } from 'react'
 import './Info.scss'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Info = () => {
 
@@ -70,10 +72,10 @@ const Info = () => {
             TED<sup>x</sup>Columbia Lake Youth's theme is reinventing education, aiming to inspire a young audience to seek learning outside the classroom. With experts and inspiring speakers from across the region, TED<sup>x</sup>Columbia Lake Youth is looking to share recent case studies and strategies spanning the personal, societal and physical branches of learning.
           </p>
         </div>
-        <img src={lake} alt='lake'></img>
+        <LazyLoadImage src={lake} alt='lake' effect='blur' wrapperClassName='lazy-load-image' />
       </div>
       <div className='section typography mt-20 pb-16'>
-        <img src={tedx} alt='tedx'></img>
+        <LazyLoadImage src={tedx} alt='tedx' effect='blur' wrapperClassName='lazy-load-image' />
         <div className='section-wrapper'>
           <h2>What is <a href='https://www.ted.com/about/programs-initiatives/tedx-program'>TED<sup>x</sup></a>?</h2>
           <p>In the spirit of ideas worth spreading, TED has created a program called TED<sup>x</sup>. TED<sup>x</sup> is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TED<sup>x</sup>Columbia Lake Youth, where x = independently organized TED event. At TED<sup>x</sup>Columbia Lake Youth, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TED<sup>x</sup> program, but individual TED<sup>x</sup> events, including ours, are self-organized.</p>

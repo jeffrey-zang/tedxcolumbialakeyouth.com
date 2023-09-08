@@ -113,11 +113,18 @@ button:not(.no-styles) {
   gap: 2rem;
 
   img {
-    width: 30%;
+    width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #e5e7eb;
+    margin: 0 auto;
+  }
+  .lazy-load-image {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
