@@ -9,7 +9,6 @@ import Shawn from "../../assets/headshots/shawn.webp";
 import Lauren from "../../assets/headshots/lauren.webp";
 import Liam from "../../assets/headshots/liam.webp";
 import Ayush from "../../assets/headshots/ayush.webp";
-import Cindy from "../../assets/headshots/cindy.jpg";
 
 import { useState } from "react";
 
