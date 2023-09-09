@@ -52,12 +52,6 @@ const Team = () => {
       href: "https://www.linkedin.com/in/jeffreyzang2007/",
     },
     {
-      name: "Cindy Cheng",
-      role: "Logistics",
-      image: Cindy,
-      href: "https://www.linkedin.com/in/cindy-chengg/",
-    },
-    {
       name: "Shawn Xiao",
       role: "Marketing and Design",
       image: Shawn,

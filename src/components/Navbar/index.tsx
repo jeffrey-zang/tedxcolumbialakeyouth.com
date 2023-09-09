@@ -9,9 +9,13 @@ export const Links = (style:any) => {
 
   return (
     <>
-      <a href='/#event-info' className={style.style}>Event Info</a>
+      <div onClick={() => document.getElementById('event-info')?.scrollIntoView()}>
+        <Link to='/' className={style.style}>Event Info</Link>
+      </div>
       <Link to='/about-ted' className={style.style}>About TED</Link>
-      <a href='/#partners' className={style.style}>Partners</a>
+      <div onClick={() => document.getElementById('partners')?.scrollIntoView()}>
+        <Link to='/' className={style.style}>Partners</Link>
+      </div>
       <Link to='/our-team' className={style.style}>Our Team</Link>
       <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer' className={`font-bold !text-red ${style.style}`}>Register Now!</a>
     </>
