@@ -1,6 +1,6 @@
 import "./Team.scss";
 
-import Hooman from "../../assets/headshots/hooman.webp";
+import Hooman from "../../assets/headshots/hooman.jpg";
 import Yoyo from "../../assets/headshots/yoyo.webp";
 import Victor from "../../assets/headshots/victor.webp";
 import Jeffrey from "../../assets/headshots/jeffrey.webp";
