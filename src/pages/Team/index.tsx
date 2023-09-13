@@ -68,7 +68,7 @@ const Team = () => {
     },
     {
       name: "Liam McNamara",
-      role: "Sponsorships and Finance",
+      role: "Head of Production",
       image: Liam,
       href: "https://www.linkedin.com/in/liam-mcnamara-739775221/",
     },
