@@ -78,7 +78,7 @@ export const scheduleData:ScheduleData[][] = [
     description: <div>Eat and talk to each other</div>
   }, {
     type: 'speech',
-    title: "IQC Workshop",
+    title: "Workshop",
     time: "2:15 PM",
     location: "Auditorium",
     description: <div>IQC</div>

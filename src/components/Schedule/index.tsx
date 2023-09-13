@@ -24,9 +24,9 @@ const Schedule = () => {
           return (
             <div className="flex gap-4">
               <div
-                className="bg-[#7f0827] p-4 rounded-r-md border-l-[5px] w-full cursor-pointer hover:opacity-80 transition-opacity"
+                className="bg-[#7f0827] p-4 rounded-r-md border-l-[5px] w-full transition-opacity" // cursor-pointer hover:opacity-80
                 style={{ borderLeftColor: eventColours[item[0].type] }}
-                onClick={() => {handleClick(item[0])}}
+                // onClick={() => {handleClick(item[0])}}
               >
                 <h3 className="text-xl">{item[0].title}</h3>
                 <p>
