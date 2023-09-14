@@ -79,42 +79,35 @@ export const scheduleData:ScheduleData[][] = [
   }, {
     type: 'speech',
     title: "Workshop",
-    time: "2:15 PM",
+    time: "1:15 PM",
     location: "Auditorium",
     description: <div>IQC</div>
   }],
   [{
     type: 'performance',
     title: "Musical Performance",
-    time: "2:15 PM",
+    time: "2:35 PM",
     location: "Auditorium",
     description: <div>Our first speaker will be announced soon!</div>
   }],
   [{
     type: 'speech',
     title: "Speaker #8",
-    time: "2:25 PM",
+    time: "2:53 PM",
     location: "Auditorium",
     description: <div>Our first speaker will be announced soon!</div>
   }],
   [{
     type: 'speech',
     title: "Speaker #9",
-    time: "3:43 PM",
+    time: "3:11 PM",
     location: "Auditorium",
     description: <div>Our first speaker will be announced soon!</div>
   }],
   [{
     type: 'speech',
     title: "Speaker #10",
-    time: "3:01 PM",
-    location: "Auditorium",
-    description: <div>Our first speaker will be announced soon!</div>
-  }],
-  [{
-    type: 'speech',
-    title: "Speaker #11",
-    time: "3:19 PM",
+    time: "3:29 PM",
     location: "Auditorium",
     description: <div>Our first speaker will be announced soon!</div>
   }],
