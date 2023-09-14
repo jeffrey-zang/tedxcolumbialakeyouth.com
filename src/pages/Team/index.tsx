@@ -10,6 +10,7 @@ import Lauren from "../../assets/headshots/lauren.webp";
 import Liam from "../../assets/headshots/liam.webp";
 import Ayush from "../../assets/headshots/ayush.webp";
 import Cathy from "../../assets/headshots/cathy.jpeg";
+import Casper from "../../assets/headshots/casper.jpeg";
 
 import { useState } from "react";
 
@@ -65,6 +66,11 @@ const Team = () => {
       name: "Cathy Liu",
       role: "Marketing and Design",
       image: Cathy,
+    },
+    {
+      name: "Casper Dong",
+      role: "Marketing and Design",
+      image: Casper
     },
     {
       name: "Liam McNamara",
