@@ -79,7 +79,7 @@ export const scheduleData:ScheduleData[][] = [
   }, {
     type: 'speech',
     title: "Workshop",
-    time: "1:15 PM",
+    time: "1:30 PM",
     location: "Auditorium",
     description: <div>IQC</div>
   }],
