@@ -41,7 +41,7 @@ const Info = () => {
       <div className='h-8 bg-[#c20025] opacity-50'></div>
       <div className='h-8 bg-[#c20025] opacity-20'></div>
 
-      <div className='flex flex-col items-center my-20'>
+      <div className='flex flex-col items-center my-[8rem]'>
         <h3 className='text-dimmed text-2xl'>T-MINUS</h3>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center timer-container'>
           <div className='timer hover:scale-110 hover:rotate-6 hover:-translate-x-5'>
