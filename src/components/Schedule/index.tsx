@@ -31,6 +31,7 @@ const Schedule = () => {
                 }}
               >
                 <h3 className="text-xl">{item[0].title}</h3>
+                <p className='font-bold'>{item[0].speaker}</p>
                 <p>
                   {item[0].time} {item[0].location && <>@ {item[0].location}</>}
                 </p>
@@ -70,8 +71,9 @@ const Schedule = () => {
       })}
 
       <div className={`fixed top-0 left-0 z-50 w-screen h-screen transition-opacity cursor-pointer backdrop-blur-md ${modalShow ? "opacity-1 pointer-events-auto" : "opacity-0 pointer-events-none"}`} onClick={() => setModalShow(false)}>
-        <div className='absolute top-1/2 left-1/2 -translate-x-1/2 bg-black border p-8 rounded-lg -translate-y-1/2 z-50'>
+        <div className='absolute top-1/2 left-1/2 -translate-x-1/2 bg-black w-1/2 border p-8 rounded-lg -translate-y-1/2 z-50'>
           <h3 className="text-2xl">{modalData.title}</h3>
+          <p className='font-bold'>{modalData.speaker}</p>
           <p className='mb-4'>
             {modalData.time} {modalData.location && <>@ {modalData.location}</>}
           </p>
