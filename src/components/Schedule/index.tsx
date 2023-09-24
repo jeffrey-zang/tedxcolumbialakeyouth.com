@@ -24,9 +24,11 @@ const Schedule = () => {
           return (
             <div className="flex gap-4">
               <div
-                className="bg-[#7f0827] p-4 rounded-r-md border-l-[5px] w-full transition-opacity" // cursor-pointer hover:opacity-80
+                className={`bg-[#7f0827] p-4 rounded-r-md border-l-[5px] w-full transition-opacity ${(item[0].description) ? "cursor-pointer hover:opacity-80" : ""}`} 
                 style={{ borderLeftColor: eventColours[item[0].type] }}
-                // onClick={() => {handleClick(item[0])}}
+                onClick={() => {
+                  if (item[0].description) handleClick(item[0])
+                }}
               >
                 <h3 className="text-xl">{item[0].title}</h3>
                 <p>
@@ -41,7 +43,9 @@ const Schedule = () => {
               <div
                 className="bg-[#7f0827] p-4 rounded-r-md w-1/2 border-l-[5px] cursor-pointer hover:opacity-80 transition-opacity"
                 style={{ borderLeftColor: eventColours[item[0].type] }}
-                onClick={() => {handleClick(item[0])}}
+                onClick={() => {
+                  if (item[0].description) handleClick(item[0])
+                }}
               >
                 <h3 className="text-xl">{item[0].title}</h3>
                 <p>
@@ -51,7 +55,9 @@ const Schedule = () => {
               <div
                 className="bg-[#7f0827] p-4 rounded-r-md w-1/2 border-l-[5px] cursor-pointer hover:opacity-80 transition-opacity"
                 style={{ borderLeftColor: eventColours[item[1].type] }}
-                onClick={() => {handleClick(item[1])}}
+                onClick={() => {
+                  if (item[1].description) handleClick(item[1])
+                }}
               >
                 <h3 className="text-xl">{item[1].title}</h3>
                 <p>

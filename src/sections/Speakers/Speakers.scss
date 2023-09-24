@@ -1,0 +1,20 @@
+.speaker {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #e5e7eb;
+    min-width: 200px;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+}

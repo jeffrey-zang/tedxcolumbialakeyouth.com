@@ -1,5 +1,5 @@
 export interface ScheduleData {
-  type: string;
+  type: 'main' | 'speech' | 'ceremony' | 'networking' | 'performance' | "";
   title: string;
   time: string;
   location?: string;

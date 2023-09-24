@@ -16,6 +16,24 @@ export const scheduleData:ScheduleData[][] = [
   }],
   [{
     type: 'speech',
+    title: "Keynote Speech - Bardish Chagger",
+    time: "10:07 AM",
+    location: "Auditorium",
+  }],
+  [{
+    type: 'speech',
+    title: "Keynote Speech - Dorothy McCabe",
+    time: "10:12 AM",
+    location: "Auditorium",
+  }],
+  [{
+    type: 'speech',
+    title: "Keynote Speech - Paul	Smith",
+    time: "10:17 AM",
+    location: "Auditorium",
+  }],
+  [{
+    type: 'speech',
     title: "Speaker #1",
     time: "10:40 AM",
     location: "Auditorium",
