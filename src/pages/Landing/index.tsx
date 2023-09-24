@@ -41,16 +41,16 @@ const Landing = () => {
   }
   
   return (
-    <div onMouseMove={(e) => handleMove(e)} onTouchMove={(e) => handleMove(e.touches[0])}>
+    <div onMouseMove={(e) => handleMove(e)}>
       <Wave fill='#c20025'
         paused={false}
         options={{
-          height: 20,
-          amplitude: 60,
+          height: 15,
+          amplitude: 40,
           speed: 0.15,
           points: 5
         }}
-        className='absolute bottom-0 mt-[140dvh] z-30'
+        className='absolute bottom-0 mt-[140dvh] h-24 z-30'
       />
       <div className='landing bg-gray-100 right h-full'>
         <div className='h-full flex flex-col md:gap-0 gap-4 justify-center'>
@@ -58,7 +58,7 @@ const Landing = () => {
           <p className='h1 !text-gray-900 animate-fadedown'>Let's <br className='block md:hidden'/>redesign <br/><span className='gradient-text bg-gradient-to-r from-orange-300 via-red to-orange-300'>empowerment</span></p>
           <p className='h3 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards z-30'>
             October 14, 2023 • University of Waterloo<br/>
-            <button className='red mt-8 ' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register now!</button>
+            <button className='red mt-4 text-xl' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register Now!</button>
           </p>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Landing = () => {
           <p className='h1 animate-fadedown'>Let's <br className='block md:hidden'/>reinvent <br/><span className='gradient-text bg-gradient-to-r from-red via-purple-400 to-red'>education</span></p>
           <p className='h3 !text-gray-400 animate-fadein opacity-0 fill-mode-forwards -z-30'>
             October 14, 2023 • University of Waterloo<br/>
-            <button className='red mt-8 ' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register now!</button>
+            <button className='red mt-4 text-xl' onClick={() => window.open('https://attend.tedxcolumbialakeyouth.com')}>Register Now!</button>
           </p>
         </div>
       </div>

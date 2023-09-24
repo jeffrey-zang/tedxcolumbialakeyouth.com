@@ -147,16 +147,9 @@ export const scheduleData:ScheduleData[][] = [
     description: <div>Our first speaker will be announced soon!</div>
   }],
   [{
-    type: 'speech',
-    title: "Speaker #15",
-    time: "5:09 PM",
-    location: "Auditorium",
-    description: <div>Our first speaker will be announced soon!</div>
-  }],
-  [{
     type: 'ceremony',
     title: "Closing Ceremony",
-    time: "5:30 PM",
+    time: "5:10 PM",
     location: "Auditorium",
     description: <div>Our first speaker will be announced soon!</div>
   }],
