@@ -11,6 +11,7 @@ import Liam from "../../assets/headshots/liam.webp";
 import Ayush from "../../assets/headshots/ayush.webp";
 import Cathy from "../../assets/headshots/cathy.jpeg";
 import Casper from "../../assets/headshots/casper.jpeg";
+import moulik from '../../assets/headshots/moulik.jpeg'
 
 import { useState } from "react";
 
@@ -84,6 +85,12 @@ const Team = () => {
       image: Ayush,
       href: "https://www.linkedin.com/in/ayush-malhotra-4416b51a5/",
     },
+    {
+      name: "Moulik Budhiraja",
+      role: "Technology and Production",
+      image: moulik,
+      href: " https://www.linkedin.com/in/moulikbudhiraja"
+    }
   ];
 
   const bearLinks = [
