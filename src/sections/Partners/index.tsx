@@ -1,20 +1,8 @@
 import './Partners.scss'
-import ycf from '../../assets/partners/ycf.png'
-import ked from '../../assets/partners/ked.jpg'
 import uw from '../../assets/partners/uw.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
-const partnerData = [
-  {
-    "logo": ycf,
-    "href": "https://youthcreativityfund.ca",
-    "class": "bg-black border-2 border-white"
-  }, {
-    "logo": ked,
-    "href": "https://www.tedxkitchenered.com",
-  }
-]
+import { partnerData } from '../../data/Partners.data';
 
 const contactData = [
   {
