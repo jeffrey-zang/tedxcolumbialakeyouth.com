@@ -1,5 +1,8 @@
 export interface SpeakerType {
-  name: string;
-  talk: string;
-  image: string;
+  [name: string]: {
+    name: string;
+    title: string;
+    description?: JSX.Element;
+    image: string;
+  }
 }

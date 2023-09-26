@@ -1,8 +1,8 @@
 export interface ScheduleData {
   type: 'main' | 'speech' | 'ceremony' | 'networking' | 'performance' | "";
-  title: string;
   time: string;
   speaker?: string;
-  location?: string;
+  title?: string;
   description?: JSX.Element;
+  location?: string;
 }

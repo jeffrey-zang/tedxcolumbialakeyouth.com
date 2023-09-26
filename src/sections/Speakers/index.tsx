@@ -8,7 +8,8 @@ const Speakers = () => {
     <div className='flex flex-col items-center'>
       <h2>Keynotes</h2>
       <div className="flex justify-center flex-wrap gap-12 mt-4 px-20">
-        {keynotes.map((keynote) => {
+        {Object.entries(keynotes).map((keynote:any) => {
+          keynote = keynote[1]
           return (
             <div
               className="speaker md:w-1/4"
@@ -33,7 +34,8 @@ const Speakers = () => {
       </div>
       <h2 className='mt-8'>Speakers</h2>
       <div className="flex justify-center flex-wrap gap-12 mt-4">
-        {speakers.map((speaker) => {
+        {Object.entries(speakers).map((speaker:any) => {
+          speaker = speaker[1]
           return (
             <div
               className="speaker w-1/2 md:w-1/4 lg:w-1/5 xl:w-1/6"
@@ -51,7 +53,7 @@ const Speakers = () => {
                 />
               </div>
               <h3>{speaker.name}</h3>
-              <p className="talk">{speaker.talk}</p>
+              <p className="talk">{speaker.title}</p>
             </div>
           );
         })}
