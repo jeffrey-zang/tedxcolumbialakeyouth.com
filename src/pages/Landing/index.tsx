@@ -7,7 +7,7 @@ const Landing = () => {
 
   const ref = useRef<HTMLDivElement>(null)
   
-  const handleMove = (event:MouseEvent<HTMLDivElement>) => {
+  const handleMove = (event:any) => {
     if (ref.current) {
       const widthAnimation = {
         width: `calc(${event.clientX / window.innerWidth * 100}% + 12px)`
