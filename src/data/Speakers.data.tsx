@@ -64,7 +64,7 @@ export const speakers: SpeakerType = {
   "Bob Egan": {
     name: "Bob Egan",
     image: bob,
-    title: "sdaf",
+    title: "Essential Educational Elements for the 21st Century",
     description: <div>Our first speaker will be announced soon!</div>,
   },
   "Milind Kumar": {
@@ -181,8 +181,8 @@ export const speakers: SpeakerType = {
   "Ammaar Khan": {
     name: "Ammaar Khan",
     image: Ammaar,
-    title: "asd",
-    description: <div>Our first speaker will be announced soon!</div>,
+    title: "Unlocking the power of memorization",
+    description: <div>In an era where limitless information is available at the tap of a finger, the ability to memorize information is becoming a lost art. In this talk, Ammaar Khan reflects on his personal experience with memorization to paint the concept of memory in a new light - a powerful ability that anyone can master.</div>,
   },
   "Paris Cai": {
     name: "Paris Cai",
@@ -218,7 +218,7 @@ export const speakers: SpeakerType = {
     name: "Cindy Cheng",
     image: cindy,
     title: "From Basements to Breakthroughs: The Power of Simple Ideas",
-    description: <div>Our first speaker will be announced soon!</div>,
+    description: <div>Cindy Cheng describes her journey in STEM and research: the story of how a child tinkering around in the basement of her home came to working on the healthcare solutions of the future in university laboratories. In addition, she describes how the evolution of her work has taken her from rudimentary elementary school science fairs to presenting at the “Olympics of science fair” as part of Team Canada, where she won an award for developing a non-invasive sensor for detecting tissue hypoxia. Alongside her experiences, she presents how valuing simplicity has catalyzed her success in scientific research and science fairs alike—and how it can do the same for you.</div>,
   },
 };
 
