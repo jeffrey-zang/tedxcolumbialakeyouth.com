@@ -10,6 +10,7 @@ import Ayush from "../assets/headshots/ayush.webp";
 import Cathy from "../assets/headshots/cathy.jpeg";
 import Casper from "../assets/headshots/casper.jpeg";
 import moulik from '../assets/headshots/moulik.jpeg'
+import david from '../assets/headshots/david.jpg'
 
 import { TeamType } from "../types/team";
 
@@ -65,21 +66,26 @@ export const humans = [
     image: Casper
   },
   {
-    name: "Liam McNamara",
-    role: "Head of Production",
-    image: Liam,
-    href: "https://www.linkedin.com/in/liam-mcnamara-739775221/",
-  },
-  {
     name: "Ayush Malhotra",
     role: "Sponsorships and Finance",
     image: Ayush,
     href: "https://www.linkedin.com/in/ayush-malhotra-4416b51a5/",
   },
   {
+    name: "Liam McNamara",
+    role: "Head of Production",
+    image: Liam,
+    href: "https://www.linkedin.com/in/liam-mcnamara-739775221/",
+  },
+  {
     name: "Moulik Budhiraja",
     role: "Technology and Production",
     image: moulik,
     href: " https://www.linkedin.com/in/moulikbudhiraja"
+  },
+  {
+    name: "David Raicu",
+    role: "Production",
+    image: david,
   }
 ] as TeamType[];
