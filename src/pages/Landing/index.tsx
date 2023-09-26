@@ -7,7 +7,7 @@ const Landing = () => {
 
   const ref = useRef<HTMLDivElement>(null)
   
-  const handleMove = (event:any) => {
+  const handleMove = (event:React.MouseEvent<HTMLDivElement>) => {
     if (ref.current) {
       const widthAnimation = {
         width: `calc(${event.clientX / window.innerWidth * 100}% + 12px)`
@@ -46,7 +46,7 @@ const Landing = () => {
   }
   
   return (
-    <div onTouchMove={handleMove} onMouseMove={handleMove}>
+    <div onMouseMove={handleMove}>
       <Wave fill='#c20025'
         paused={false}
         options={{

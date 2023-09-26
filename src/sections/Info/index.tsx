@@ -61,7 +61,7 @@ const Info = () => {
             <h3 className='text-[1.5rem]'>SECS</h3>
           </div>
         </div>
-        <h3 className='text-dimmed text-2xl font-normal text-center'>until <Title /></h3>
+        <h3 className='text-dimmed text-2xl font-normal text-center'>until<br/><Title /></h3>
       </div>
 
       <div className='section typography mt-20'>
