@@ -35,7 +35,7 @@ const Info = () => {
   }, 1000);
 
   return ( 
-    <div className='z-40 about mt-[calc(100dvh-83px)]' id='event-info'>
+    <div className='z-40 about' id='event-info'>
       <div className='h-8 bg-[#c20025] opacity-90'></div>
       <div className='h-8 bg-[#c20025] opacity-70'></div>
       <div className='h-8 bg-[#c20025] opacity-50'></div>

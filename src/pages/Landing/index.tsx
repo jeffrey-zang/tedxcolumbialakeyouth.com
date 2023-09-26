@@ -7,41 +7,46 @@ const Landing = () => {
 
   const ref = useRef<HTMLDivElement>(null)
   
-  const handleMove = (e:any) => {
+  const handleMove = (event:MouseEvent<HTMLDivElement>) => {
     if (ref.current) {
-      
       const widthAnimation = {
-        width: `calc(${e.clientX / window.innerWidth * 100}% + 12px)`
+        width: `calc(${event.clientX / window.innerWidth * 100}% + 12px)`
       }
+      
+      const isMobile = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0)
 
-      if ((e.clientX / window.innerWidth * 100) >= 98.5) {
-        ref.current.animate({
-          width: "100%"
-        }, {
-          duration: 300,
-          fill: "forwards",
-          easing: "ease-in",
-        });
-      } else if ((e.clientX / window.innerWidth * 100) <= 1) {
-        ref.current.animate({
-          width: "0%"
-        }, {
-          duration: 300,
-          fill: "forwards",
-          easing: "ease-in",
-        });
+      if (isMobile) {
+        ref.current.style.width = widthAnimation.width
       } else {
-        ref.current.animate(widthAnimation, {
-          duration: 800,
-          fill: "forwards",
-          easing: "ease-in",
-        });
+        if ((event.clientX / window.innerWidth * 100) >= 98.5) {
+          ref.current.animate({
+            width: "100%"
+          }, {
+            duration: 300,
+            fill: "forwards",
+            easing: "ease-in",
+          });
+        } else if ((event.clientX / window.innerWidth * 100) <= 1) {
+          ref.current.animate({
+            width: "0%"
+          }, {
+            duration: 300,
+            fill: "forwards",
+            easing: "ease-in",
+          });
+        } else {
+          ref.current.animate(widthAnimation, {
+            duration: 800,
+            fill: "forwards",
+            easing: "ease-in",
+          });
+        }
       }
     }
   }
   
   return (
-    <div onMouseMove={(e) => handleMove(e)}>
+    <div onTouchMove={handleMove} onMouseMove={handleMove}>
       <Wave fill='#c20025'
         paused={false}
         options={{
@@ -50,7 +55,7 @@ const Landing = () => {
           speed: 0.15,
           points: 5
         }}
-        className='absolute bottom-0 mt-[140dvh] h-24 z-30'
+        className='absolute bottom-0 mt-[140vh] h-24 z-30'
       />
       <div className='landing bg-gray-100 right h-full'>
         <div className='h-full flex flex-col md:gap-0 gap-4 justify-center'>

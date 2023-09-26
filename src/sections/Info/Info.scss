@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+.about {
+  margin-top: -webkit-calc(100svh - 83px);
+  margin-top: -moz-calc(100svh - 83px);
+  margin-top: calc(100svh - 83px);
+}
+
 .timer-container {
   margin: 2rem 0;
   gap: 2rem;
