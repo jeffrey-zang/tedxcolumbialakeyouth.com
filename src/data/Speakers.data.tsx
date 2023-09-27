@@ -38,8 +38,8 @@ export const keynotes: SpeakerType = {
 };
 
 export const speakers: SpeakerType = {
-  "John Donohue": {
-    name: "John Donohue",
+  "Dr. John Donohue": {
+    name: "Dr. John Donohue",
     image: john,
     title: "Our Quantum Present and Future",
     description: (
@@ -55,8 +55,8 @@ export const speakers: SpeakerType = {
       </div>
     ),
   },
-  "James Danckert": {
-    name: "James Danckert",
+  "Dr. James Danckert": {
+    name: "Dr. James Danckert",
     image: james,
     title: "Boredom: What is it good for?",
     description: <div>Our first speaker will be announced soon!</div>,

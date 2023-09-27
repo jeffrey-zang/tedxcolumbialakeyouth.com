@@ -59,7 +59,7 @@ export const scheduleData = [
   }],
   [{
     type: 'speech',
-    speaker: "James Danckert",
+    speaker: "Dr. James Danckert",
     time: "12:00 PM",
     location: "Auditorium",
   }],
@@ -77,7 +77,7 @@ export const scheduleData = [
   }],
   [{
     type: 'speech',
-    speaker: "John Donohue",
+    speaker: "Dr. John Donohue",
     time: "12:54 PM",
     location: "Auditorium",
   }],
@@ -91,7 +91,7 @@ export const scheduleData = [
     type: 'speech',
     title: "Quantum Bits and Quantum Cryptography - Workshop",
     time: "1:30 PM",
-    location: "Auditorium",
+    location: "TBA",
     description: <div>How do we actually use the features of quantum mechanics to build new technologies? In this workshop, we'll take a closer look at quantum cryptography, which uses quantum superposition and the uncertainty principle to keep information secure. You'll get a chance to see how it works both in theory and in practice, and see how these ideas extend to other technologies like quantum computers.</div>
   }],
   [{
