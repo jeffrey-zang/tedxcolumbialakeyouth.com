@@ -30,9 +30,9 @@ const Partners = () => {
     <>
     <div className='typography mt-16 flex-col mx-auto scroll-m-28' id='partners'>
       <h2 className='text-center'>Our Partners</h2>
-      <LazyLoadImage key='-1' src={uw} alt='sponsor' onClick={() => window.open('https://uwaterloo.ca')} effect='blur' wrapperClassName='partner-logo p-4 !w-1/2 mx-auto !grid place-items-center' />
-      <LazyLoadImage key='-1' src={wrdsb} alt='sponsor' onClick={() => window.open('https://www.wrdsb.ca')} effect='blur' wrapperClassName='mt-4 partner-logo p-4 !w-1/2 mx-auto !grid place-items-center' />
-      <LazyLoadImage key='-1' src={ycf} alt='sponsor' className='partner-logo bg-black' onClick={() => window.open('https://youthcreativityfund.ca')} effect='blur' wrapperClassName='mt-4 partner-logo bg-black border-2 border-white p-4 !w-1/2 mx-auto !grid place-items-center' />
+      <LazyLoadImage key='-3' src={uw} alt='sponsor' onClick={() => window.open('https://uwaterloo.ca')} effect='blur' wrapperClassName='partner-logo p-4 w-3/4 md:!w-1/2 mx-auto !grid place-items-center' />
+      <LazyLoadImage key='-2' src={wrdsb} alt='sponsor' onClick={() => window.open('https://www.wrdsb.ca')} effect='blur' wrapperClassName='mt-4 partner-logo p-4 w-3/4 md:!w-1/2 mx-auto !grid place-items-center' />
+      <LazyLoadImage key='-1' src={ycf} alt='sponsor' className='partner-logo min-w-0 bg-black' onClick={() => window.open('https://youthcreativityfund.ca')} effect='blur' wrapperClassName='mt-4 partner-logo p-4 w-3/4 md:!w-1/2 mx-auto !grid place-items-center bg-black border-2 border-white' />
       <div className='flex justify-center flex-wrap gap-4 mt-8'>
         {partnerData.map((partner, index) => {
           return (
