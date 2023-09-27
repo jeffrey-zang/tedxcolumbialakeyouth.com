@@ -1,5 +1,4 @@
 import { Partner } from "../types/partners"
-import ycf from '../assets/partners/ycf.png'
 import ked from '../assets/partners/ked.jpg'
 import kit from '../assets/partners/kit.jpg'
 import swril from '../assets/partners/swril.jpg'
@@ -12,14 +11,10 @@ import sd from '../assets/partners/sd.png'
 import idle from '../assets/partners/idle.webp'
 import sjp from '../assets/partners/SJP.png'
 import wrsbc from '../assets/partners/wrsbc.png'
-import wrdsb from '../assets/partners/wrdsb.png'
+import cbc from '../assets/partners/cbc.png'
 
 export const partnerData = [
-  {
-    logo: ycf,
-    href: "https://youthcreativityfund.ca",
-    class: "bg-black border-2 border-white"
-  }, {
+{
     logo: ked,
     href: "https://www.tedxkitchenered.com",
   }, {
@@ -57,7 +52,8 @@ export const partnerData = [
     logo: wrsbc,
     href: "https://www.waterlooregionsmallbusiness.com"
   }, {
-    logo: wrdsb,
-    href: "https://www.wrdsb.ca"
+    logo: cbc,
+    href: "https://cbc.ca/kw",
+    class: "p-0"
   }
 ] as Partner[]
