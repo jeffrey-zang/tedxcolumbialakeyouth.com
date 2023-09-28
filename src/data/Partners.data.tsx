@@ -1,7 +1,6 @@
 import { Partner } from "../types/partners"
 import ked from '../assets/partners/ked.jpg'
 import kit from '../assets/partners/kit.jpg'
-import swril from '../assets/partners/swril.jpg'
 import meal from '../assets/partners/meal.png'
 import ctrlv from '../assets/partners/ctrlv.png'
 import fog from '../assets/partners/fog.png'
@@ -17,9 +16,6 @@ export const partnerData = [
 {
     logo: ked,
     href: "https://www.tedxkitchenered.com",
-  }, {
-    logo: swril,
-    href: "https://www.swril.ca"
   }, {
     logo: meal,
     href: "https://www.mealinajar.com"
