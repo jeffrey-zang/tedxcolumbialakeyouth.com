@@ -6,7 +6,6 @@ import bardish from "../assets/speakers/bardish.jpg";
 import bob from "../assets/speakers/bob.png";
 import cindy from "../assets/speakers/cindy.jpeg";
 import elaine from "../assets/speakers/elaine.jpg";
-import jeremy from "../assets/speakers/jeremy.png";
 import james from "../assets/speakers/james.jpg";
 import john from "../assets/speakers/john.jpeg";
 import katelyn from "../assets/speakers/katelyn.png";
@@ -59,13 +58,11 @@ export const speakers: SpeakerType = {
     name: "Dr. James Danckert",
     image: james,
     title: "Boredom: What is it good for?",
-    description: <div>Our first speaker will be announced soon!</div>,
   },
   "Bob Egan": {
     name: "Bob Egan",
     image: bob,
     title: "Essential Educational Elements for the 21st Century",
-    description: <div>Our first speaker will be announced soon!</div>,
   },
   "Milind Kumar": {
     name: "Milind Kumar",
@@ -202,17 +199,10 @@ export const speakers: SpeakerType = {
       </div>
     ),
   },
-  "Jeremy Hedges": {
-    name: "Jeremy Hedges",
-    image: jeremy,
-    title: "",
-    description: <div>Our first speaker will be announced soon!</div>,
-  },
   "Aminka Belvitt": {
     name: "Aminka Belvitt",
     image: aminka,
-    title: "idk man",
-    description: <div>Our first speaker will be announced soon!</div>,
+    title: "To be announced",
   },
   "Cindy Cheng": {
     name: "Cindy Cheng",
