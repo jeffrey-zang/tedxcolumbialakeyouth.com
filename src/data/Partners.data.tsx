@@ -8,7 +8,6 @@ import sweet from '../assets/partners/sweet.avif'
 import pillers from '../assets/partners/Pillers.webp'
 import sd from '../assets/partners/sd.png'
 import idle from '../assets/partners/idle.webp'
-import sjp from '../assets/partners/SJP.png'
 import wrsbc from '../assets/partners/wrsbc.png'
 import cbc from '../assets/partners/cbc.png'
 
