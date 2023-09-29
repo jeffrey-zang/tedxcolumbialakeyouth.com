@@ -99,7 +99,7 @@ export const scheduleData = [
     title: "Blind-Folded Ballade Coda - Michael Xu",
     time: "2:15 PM",
     location: "Auditorium",
-    description: <div>Ballade in G minor op.1 no. 23 or Revolutionary op. 10, no. 12. These are famous classical piano songs that I have played in the past and are in multiple movies/animes. I have made many provincial and national level titles in terms of music and exam scores, as my grade eight music exam score is a 97% average (First Class Honours with Distinction) and also grade 10 is a 90% average. I'm gonna play these...blindfolded ;)</div>
+    description: <div>Ballade in G minor op.1 no. 23 or Revolutionary op. 10, no. 12. These are famous classical piano songs that Michael has played in the past and are in multiple movies/animes. He has made many provincial and national level titles in terms of music and exam scores, as his grade eight music exam score is a 97% average (First Class Honours with Distinction) and also grade 10 is a 90% average. He's gonna play these...blindfolded ;)</div>
   }],
   [{
     type: 'speech',
@@ -109,60 +109,54 @@ export const scheduleData = [
   }],
   [{
     type: 'speech',
-    speaker: "Jeremy Hedges",
+    speaker: "Cindy Cheng",
     time: "2:43 PM",
     location: "Auditorium",
   }],
   [{
     type: 'speech',
-    speaker: "Cindy Cheng",
-    time: "3:01 PM",
-    location: "Auditorium",
-  }],
-  [{
-    type: 'speech',
     speaker: "Aminka Belvitt",
-    time: "3:19 PM",
+    time: "3:01 PM",
     location: "Auditorium",
   }],
   [{
     type: 'networking',
     title: "Networking and Snacks",
-    time: "3:45 PM",
+    time: "3:25 PM",
     location: "Networking Area",
     description: <div>Eat and talk to each other</div>
   }],
   [{
     type: 'performance',
     title: "Musical Performance",
-    time: "4:05 PM",
+    time: "3:45 PM",
     location: "Auditorium",
     description: <div>Our first speaker will be announced soon!</div>
   }],
   [{
     type: 'speech',
     speaker: "Ammaar Khan",
-    time: "4:15 PM",
+    time: "3:55 PM",
     location: "Auditorium",
   }],
   [{
     type: 'speech',
     speaker: "Milind Kumar",
-    time: "4:33 PM",
+    time: "4:13 PM",
     location: "Auditorium",
   }],
   [{
     type: 'speech',
     speaker: "Bob Egan",
-    time: "4:51 PM",
+    time: "4:31 PM",
     location: "Auditorium",
   }],
   [{
     type: 'ceremony',
     title: "Closing Ceremony",
-    time: "5:10 PM",
+    time: "4:50 PM",
     location: "Auditorium",
-    description: <div>Our first speaker will be announced soon!</div>
+    description: <div>Thank you for attending TED<sup>x</sup>Columbia Lake Youth! The organizers will step on stage for some closing remarks.</div>
   }]
 ] as ScheduleData[][]
 
