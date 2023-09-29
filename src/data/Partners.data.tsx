@@ -42,9 +42,6 @@ export const partnerData = [
     logo: idle,
     href: "https://idleandwood.ca"
   }, {
-    logo: sjp, 
-    href: "http://www.stjacobsprintery.com"
-  }, {
     logo: wrsbc,
     href: "https://www.waterlooregionsmallbusiness.com"
   }, {
