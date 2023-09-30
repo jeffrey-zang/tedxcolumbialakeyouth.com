@@ -1,7 +1,7 @@
 import lake from '../../assets/photos/cly.webp'
 import tedx from '../../assets/photos/TEDx-2.webp'
 import Title from '../../components/Title'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Info.scss'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
