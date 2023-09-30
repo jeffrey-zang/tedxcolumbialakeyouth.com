@@ -58,6 +58,11 @@ export const speakers: SpeakerType = {
     name: "Dr. James Danckert",
     image: james,
     title: "Boredom: What is it good for?",
+    description: (
+      <div>
+        Boredom. What is it good for? Some will want to tell you that boredom is a great driver of creativity. Welcome boredom into your life and the creative juices will flow. Ideas and innovations will come to you in a burst of energy. There’s certainly no shortage of pithy quotes from artists of various kinds making precisely this claim.But if this is true, why does boredom feel so uncomfortable? Why do we feel restless and unsatisfied when we’re bored if it is supposed to help us somehow become more creative? If boredom is so necessary for creativity, which we all love and praise, then why would we try so assiduously to avoid boredom and to eliminate it when it descends upon us?
+      </div>
+    )
   },
   "Bob Egan": {
     name: "Bob Egan",
