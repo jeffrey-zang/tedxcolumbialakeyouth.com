@@ -1,10 +1,11 @@
 import lake from '../../assets/photos/cly.webp'
 import tedx from '../../assets/photos/TEDx-2.webp'
 import Title from '../../components/Title'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import './Info.scss'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import ReactPlayer from 'react-player'
 
 const Info = () => {
 
@@ -40,6 +41,12 @@ const Info = () => {
       <div className='h-8 bg-[#c20025] opacity-70'></div>
       <div className='h-8 bg-[#c20025] opacity-50'></div>
       <div className='h-8 bg-[#c20025] opacity-20'></div>
+
+      <h4 className='text-center my-8 text-2xl mt-20'>A message from the Prime Minister</h4>
+      <div className='mx-auto aspect-video border-[1px] border-red grid-place-items-center bg-[#000] w-[90%] sm:w-3/4 lg:w-1/2'>
+        <ReactPlayer url='https://www.dropbox.com/scl/fi/m8ysa9lxid2snmuk4bx3z/PRIME_MINISTER_VIDEO_OMG.mp4?rlkey=dt3z1z3xw1dtmsifpzqowhlbe&raw=1' width='100%' height='100%' controls={true} className='rounded-xl' />
+      </div>
+
 
       <div className='flex flex-col items-center my-[8rem]'>
         <h3 className='text-dimmed text-2xl'>T-MINUS</h3>
