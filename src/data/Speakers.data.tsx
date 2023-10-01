@@ -207,7 +207,12 @@ export const speakers: SpeakerType = {
   "Aminka Belvitt": {
     name: "Aminka Belvitt",
     image: aminka,
-    title: "To be announced",
+    title: "The Power Of An Imagination",
+    description: (
+      <div>
+        Aminka Belvitt is an international speaker, innovator, humanitarian, mentor and thought leader. She believes in empowering and advancing women and marginalized people as solution creators for the UN 17 Global Goals and agents of change in their communities. She leads The ForUsGirls Foundation, founded in 2015, a Canadian-based international social purpose organization providing innovative, skills-building, and leadership development programs, mentorships and scholarships for Black girls, young women, and gender-diverse radicalized young people.
+      </div>
+    )
   },
   "Cindy Cheng": {
     name: "Cindy Cheng",
