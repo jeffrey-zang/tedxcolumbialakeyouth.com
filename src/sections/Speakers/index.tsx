@@ -5,7 +5,7 @@ import './Speakers.scss'
 
 const Speakers = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center pt-24' id='speakers'>
       <h2>Keynotes</h2>
       <div className="flex justify-center flex-wrap gap-12 mt-4 px-20">
         {Object.entries(keynotes).map((keynote:any) => {

@@ -10,11 +10,12 @@ export const Links = (style:any) => {
   return (
     <>
       <a href='/#event-info' className={style.style}>Event Info</a>
+      <a href='/#speakers' className={style.style}>Speakers</a>
       <Link to='/about-ted' className={style.style}>About TED</Link>
       <Link to='/schedule' className={style.style}>Schedule</Link>
       <a href='/#partners' className={style.style}>Partners</a>
       <Link to='/our-team' className={style.style}>Our Team</Link>
-      <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer' className={`font-bold !text-red ${style.style}`}>Register Now!</a>
+      {/* <a href='https://attend.tedxcolumbialakeyouth.com' target='_blank' rel='noreferrer' className={`font-bold !text-red ${style.style}`}>Register Now!</a> */}
     </>
   )
 }

@@ -128,10 +128,9 @@ export const scheduleData = [
   }],
   [{
     type: 'performance',
-    title: "Musical Performance",
+    title: "Tum Hi Ho | Diamonds - Hindi/English mashup - Pavani Sangapallar",
     time: "3:45 PM",
     location: "Auditorium",
-    description: <div>Our first speaker will be announced soon!</div>
   }],
   [{
     type: 'speech',

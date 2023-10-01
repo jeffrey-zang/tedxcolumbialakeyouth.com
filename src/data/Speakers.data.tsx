@@ -192,14 +192,14 @@ export const speakers: SpeakerType = {
     title: "From Classroom to Catalyst",
     description: (
       <div>
-        Following the theme of reinventing education, I will address the lack of
+        Following the theme of reinventing education, Paris will address the lack of
         emphasis on teaching students how to take initiative in the current
-        education system. My talk will explain how traditional education focuses
+        education system. Her talk will explain how traditional education focuses
         on imparting knowledge and following instructions while forgetting the
-        essential skill of self-driven action. I will also explain how I drew
-        knowledge from my family and community to launch my own initiative and
+        essential skill of self-driven action. She will also explain how she drew
+        knowledge from her family and community to launch her own initiative and
         tackle a growing education disparity amidst virtual learning. Through
-        this, I return to the theme and display learning in different ways while
+        this, Paris returns to the theme and displays learning in different ways while
         working towards a larger issue.
       </div>
     ),
