@@ -4,7 +4,7 @@ import kit from '../assets/partners/kit.jpg'
 import meal from '../assets/partners/meal.png'
 import ctrlv from '../assets/partners/ctrlv.png'
 import fog from '../assets/partners/fog.png'
-import sweet from '../assets/partners/sweet.avif'
+import sweet from '../assets/partners/cookies.png'
 import pillers from '../assets/partners/Pillers.webp'
 import sd from '../assets/partners/sd.png'
 import idle from '../assets/partners/idle.webp'
@@ -20,7 +20,8 @@ export const partnerData = [
     href: "https://www.mealinajar.com"
   }, {
     logo: sweet,
-    href: "https://sweetlouscookies.com"
+    href: "https://sweetlouscookies.com",
+    class: "bg-[#2f062d] border-2 border-white"
   }, {
     logo: kit, 
     href: "https://www.kitchener.ca/en/index.aspx"
