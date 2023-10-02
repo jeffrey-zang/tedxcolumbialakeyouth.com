@@ -129,6 +129,7 @@ export const scheduleData = [
   [{
     type: 'performance',
     title: "Tum Hi Ho | Diamonds - Hindi/English mashup - Pavani Sangapallar",
+    description: <div>Pavani Sangapallar will be performing a mashup of Hindi/English music.</div>,
     time: "3:45 PM",
     location: "Auditorium",
   }],
