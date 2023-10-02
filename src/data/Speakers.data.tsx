@@ -19,8 +19,8 @@ import jacklyn from "../assets/speakers/jacklyn.jpeg";
 import { SpeakerType } from "../types/speakers";
 
 export const keynotes: SpeakerType = {
-  "Bardish Chagger": {
-    name: "Bardish Chagger",
+  "MP Bardish Chagger": {
+    name: "MP Bardish Chagger",
     image: bardish,
     title: "Keynote Speech",
   },
@@ -29,8 +29,8 @@ export const keynotes: SpeakerType = {
     image: dorothy,
     title: "Keynote Speech",
   },
-  "Paul Smith": {
-    name: "Paul Smith",
+  "Dr. Paul Smith": {
+    name: "Dr. Paul Smith",
     image: paul,
     title: "Keynote Speech",
   },
