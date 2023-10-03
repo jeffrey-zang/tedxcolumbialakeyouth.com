@@ -129,7 +129,7 @@ export const scheduleData = [
     },
     {
       type: "speech",
-      title: "Quantum Bits and Quantum Cryptography - Workshop",
+      title: "Quantum Bits and Quantum Cryptography — Workshop",
       time: "1:30 PM",
       location: "TBA",
       description: (
@@ -147,7 +147,7 @@ export const scheduleData = [
   [
     {
       type: "performance",
-      title: "Blind-Folded Ballade Coda - Michael Xu",
+      title: "Blind-Folded Ballade Coda — Michael Xu",
       time: "2:15 PM",
       location: "Auditorium",
       description: (
@@ -199,7 +199,7 @@ export const scheduleData = [
   [
     {
       type: "performance",
-      title: "Tum Hi Ho | Diamonds - Hindi/English mashup - Pavani Sangapallar",
+      title: "Tum Hi Ho | Diamonds - Hindi/English mashup — Pavani Sangapallar",
       description: (
         <div>
           Pavani Sangapallar will be performing a mashup of Hindi/English music.

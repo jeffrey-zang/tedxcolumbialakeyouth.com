@@ -48,7 +48,7 @@ const Schedule = () => {
                     ? allSpeakers[event.speaker].title
                     : event.title}
                 </h3>
-                <p className="font-bold">{event.speaker && event.speaker}</p>
+                <p className="font-bold">{event.speaker && event.speaker} {event.speaker && '—'} {event.speaker && allSpeakers[event.speaker].affiliation}</p>
                 <p>
                   {event.time} {event.location && <>@ {event.location}</>}
                 </p>
@@ -76,7 +76,7 @@ const Schedule = () => {
                     ? allSpeakers[event.speaker].title
                     : event.title}
                 </h3>
-                <p className="font-bold">{event.speaker && event.speaker}</p>
+                <p className="font-bold">{event.speaker && event.speaker} {event.speaker && '—'} {event.speaker && allSpeakers[event.speaker].affiliation}</p>
                 <p>
                   {event.time} {event.location && <>@ {event.location}</>}
                 </p>
@@ -97,7 +97,7 @@ const Schedule = () => {
                     ? allSpeakers[event2.speaker].title
                     : event2.title}
                 </h3>
-                <p className="font-bold">{event2.speaker && event2.speaker}</p>
+                <p className="font-bold">{event.speaker && event.speaker} {event.speaker && '—'} {event.speaker && allSpeakers[event.speaker].affiliation}</p>
                 <p>
                   {event2.time} {event2.location && <>@ {event2.location}</>}
                 </p>
@@ -121,7 +121,7 @@ const Schedule = () => {
               ? allSpeakers[modalData.speaker].title
               : modalData.title}
           </h3>
-          <p className="font-bold">{modalData.speaker && modalData.speaker}</p>
+          <p className="font-bold">{modalData.speaker && modalData.speaker} {modalData.speaker && '—'} {modalData.speaker && allSpeakers[modalData.speaker].affiliation}</p>
           <p className="mb-4">
             {modalData.time} {modalData.location && <>@ {modalData.location}</>}
           </p>

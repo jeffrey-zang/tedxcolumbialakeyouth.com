@@ -23,16 +23,19 @@ export const keynotes: SpeakerType = {
     name: "MP Bardish Chagger",
     image: bardish,
     title: "Keynote Speech",
+    affiliation: "Member of Parliament"
   },
   "Dorothy McCabe": {
     name: "Dorothy McCabe",
     image: dorothy,
     title: "Keynote Speech",
+    affiliation: "Mayor of Waterloo"
   },
   "Dr. Paul Smith": {
     name: "Dr. Paul Smith",
     image: paul,
     title: "Keynote Speech",
+    affiliation: "Perimeter Institute for Theoretical Physics"
   },
 };
 
@@ -53,6 +56,7 @@ export const speakers: SpeakerType = {
         teachers to the topic.
       </div>
     ),
+    affiliation: "Institute for Quantum Computing"
   },
   "Dr. James Danckert": {
     name: "Dr. James Danckert",
@@ -62,12 +66,14 @@ export const speakers: SpeakerType = {
       <div>
         Boredom. What is it good for? Some will want to tell you that boredom is a great driver of creativity. Welcome boredom into your life and the creative juices will flow. Ideas and innovations will come to you in a burst of energy. There’s certainly no shortage of pithy quotes from artists of various kinds making precisely this claim.But if this is true, why does boredom feel so uncomfortable? Why do we feel restless and unsatisfied when we’re bored if it is supposed to help us somehow become more creative? If boredom is so necessary for creativity, which we all love and praise, then why would we try so assiduously to avoid boredom and to eliminate it when it descends upon us?
       </div>
-    )
+    ),
+    affiliation: "University of Waterloo Professor"
   },
   "Bob Egan": {
     name: "Bob Egan",
     image: bob,
     title: "Essential Educational Elements for the 21st Century",
+    affiliation: "City of Kitchener"
   },
   "Milind Kumar": {
     name: "Milind Kumar",
@@ -92,6 +98,7 @@ export const speakers: SpeakerType = {
         life's grandest challenges.
       </div>
     ),
+    affiliation: "University of Waterloo"
   },
   "Katelyn Wu": {
     name: "Katelyn Wu",
@@ -105,6 +112,7 @@ export const speakers: SpeakerType = {
         misconception that niche problems are unimportant.{" "}
       </div>
     ),
+    affiliation: "Queen's University"
   },
   "Aditya Dewan": {
     name: "Aditya Dewan",
@@ -126,6 +134,7 @@ export const speakers: SpeakerType = {
         tinkering.
       </div>
     ),
+    affiliation: "The Woodlands School"
   },
   "Jacklyn Biggin": {
     name: "Jacklyn Biggin",
@@ -141,6 +150,7 @@ export const speakers: SpeakerType = {
         in life experience too.
       </div>
     ),
+    affiliation: "Major League Hacking"
   },
   "Steven Bryson": {
     name: "Steven Bryson",
@@ -161,6 +171,7 @@ export const speakers: SpeakerType = {
         Character Counts!
       </div>
     ),
+    affiliation: "Waterloo Catholic District School Board"
   },
   "Elaine Xiao": {
     name: "Elaine Xiao",
@@ -179,12 +190,14 @@ export const speakers: SpeakerType = {
         individuals, can make a difference—and each pull our own weight.
       </div>
     ),
+    affiliation: "Laurel Heights Secondary School"
   },
   "Ammaar Khan": {
     name: "Ammaar Khan",
     image: Ammaar,
     title: "Unlocking the power of memorization",
     description: <div>In an era where limitless information is available at the tap of a finger, the ability to memorize information is becoming a lost art. In this talk, Ammaar Khan reflects on his personal experience with memorization to paint the concept of memory in a new light - a powerful ability that anyone can master.</div>,
+    affiliation: "Laurel Heights Secondary School"
   },
   "Paris Cai": {
     name: "Paris Cai",
@@ -203,6 +216,7 @@ export const speakers: SpeakerType = {
         working towards a larger issue.
       </div>
     ),
+    affiliation: "University of Western Ontario"
   },
   "Aminka Belvitt": {
     name: "Aminka Belvitt",
@@ -212,13 +226,15 @@ export const speakers: SpeakerType = {
       <div>
         Aminka Belvitt is an international speaker, innovator, humanitarian, mentor and thought leader. She believes in empowering and advancing women and marginalized people as solution creators for the UN 17 Global Goals and agents of change in their communities. She leads The ForUsGirls Foundation, founded in 2015, a Canadian-based international social purpose organization providing innovative, skills-building, and leadership development programs, mentorships and scholarships for Black girls, young women, and gender-diverse radicalized young people.
       </div>
-    )
+    ),
+    affiliation: "President and CEO of The ForUsGirls Foundation"
   },
   "Cindy Cheng": {
     name: "Cindy Cheng",
     image: cindy,
     title: "From Basements to Breakthroughs: The Power of Simple Ideas",
     description: <div>Cindy Cheng describes her journey in STEM and research: the story of how a child tinkering around in the basement of her home came to working on the healthcare solutions of the future in university laboratories. In addition, she describes how the evolution of her work has taken her from rudimentary elementary school science fairs to presenting at the “Olympics of science fair” as part of Team Canada, where she won an award for developing a non-invasive sensor for detecting tissue hypoxia. Alongside her experiences, she presents how valuing simplicity has catalyzed her success in scientific research and science fairs alike—and how it can do the same for you.</div>,
+    affiliation: "Laurel Heights Secondary School"
   },
 };
 
