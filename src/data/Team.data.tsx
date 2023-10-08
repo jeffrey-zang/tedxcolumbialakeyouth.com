@@ -2,7 +2,7 @@ import Hooman from "../assets/headshots/hooman.jpg";
 import Yoyo from "../assets/headshots/yoyo.webp";
 import Victor from "../assets/headshots/victor.webp";
 import Jeffrey from "../assets/headshots/jeffrey.webp";
-import Aasha from "../assets/headshots/aasha.webp";
+import Aasha from "../assets/headshots/aasha.jpeg";
 import Shawn from "../assets/headshots/shawn.webp";
 import Lauren from "../assets/headshots/lauren.webp";
 import Liam from "../assets/headshots/liam.webp";
