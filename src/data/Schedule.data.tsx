@@ -131,7 +131,7 @@ export const scheduleData = [
       type: "speech",
       title: "Quantum Bits and Quantum Cryptography — Workshop",
       time: "1:30 PM",
-      location: "EIT 2053",
+      location: "Room 2053",
       description: (
         <div>
           How do we actually use the features of quantum mechanics to build new
