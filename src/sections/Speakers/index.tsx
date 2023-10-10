@@ -60,7 +60,8 @@ const Speakers = () => {
                   }
                   alt={keynote.name}
                   effect='blur' 
-                  wrapperClassName='inner-image'
+                  className='w-full h-full'
+                  wrapperClassName='inner-image w-full h-full'
                 />
               </div>
               <h3>{keynote.name}</h3>
