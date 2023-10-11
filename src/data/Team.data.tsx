@@ -73,13 +73,13 @@ export const humans = [
   },
   {
     name: "Liam McNamara",
-    role: "Head of Production",
+    role: "Co-Head of Production",
     image: Liam,
     href: "https://www.linkedin.com/in/liam-mcnamara-739775221/",
   },
   {
     name: "Moulik Budhiraja",
-    role: "Technology and Production",
+    role: "Tech & Co-Head of Production",
     image: moulik,
     href: " https://www.linkedin.com/in/moulikbudhiraja",
   },

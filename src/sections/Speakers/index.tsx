@@ -4,6 +4,7 @@ import { speakers, keynotes } from '../../data/Speakers.data'
 import './Speakers.scss'
 import norris from '../../assets/speakers/cnorris.jpg'
 import joe from '../../assets/speakers/joe.jpg'
+import pavani from '../../assets/speakers/pavani.jpg'
 
 const Speakers = () => {
   return (
@@ -39,7 +40,7 @@ const Speakers = () => {
             />
           </div>
           <h3 className='mt-4 text-2xl'>Joe Pavia</h3>
-          <p>Reporter/Editor with CBC K-W 89.1 FM</p>
+          <p>Reporter/Editor, CBC K-W’s The Morning Edition on 89.1 FM and CBC Listen</p>
         </div>
       </div>
 
@@ -65,7 +66,7 @@ const Speakers = () => {
                 />
               </div>
               <h3>{keynote.name}</h3>
-              <p className="talk">{keynote.talk}</p>
+              <p>{keynote.affiliation}</p>
             </div>
           )
         })}
@@ -95,6 +96,49 @@ const Speakers = () => {
             </div>
           );
         })}
+      </div>
+
+      <h2 className='mt-8'>Performers</h2>
+      
+      <div className="flex justify-center flex-wrap px-20 mt-4 gap-12 w-full">
+        <div
+          className="speaker w-1/2 md:w-1/4 lg:w-1/5 xl:w-1/6 aspect-square"
+        >
+          <div
+            className="image h-full aspect-square"
+          >
+            <LazyLoadImage
+              src={
+                pavani
+              }
+              alt="Pavani"
+              effect='blur' 
+              wrapperClassName='inner-image'
+            />
+          </div>
+          <h3>Pavani Sangapallar</h3>
+          <p className="talk">Tum Hi Ho | Diamonds - Hindi/English mashup</p>
+        </div>
+        {/* <div className="flex justify-center flex-wrap px-20 mt-4 gap-12 w-full">
+          <div
+            className="speaker w-1/2 md:w-1/4 lg:w-1/5 xl:w-1/6 aspect-square"
+          >
+            <div
+              className="image h-full aspect-square"
+            >
+              <LazyLoadImage
+                src={
+                  pavani
+                }
+                alt="Pavani"
+                effect='blur' 
+                wrapperClassName='inner-image'
+              />
+            </div>
+            <h3>asdfs</h3>
+            <p className="talk">Tum Hi Ho | Diamonds - Hindi/English mashup</p>
+          </div>
+        </div> */}
       </div>
     </div>
   )
