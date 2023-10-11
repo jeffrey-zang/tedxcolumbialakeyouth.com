@@ -37,7 +37,7 @@
 
     .inner-image {
       aspect-ratio: 1 / 1;
-      object-fit: fill;
+      object-fit: cover;
       width: 100%;
       height: 100%;
       transition: scale 0.3s ease;

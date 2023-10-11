@@ -79,7 +79,7 @@ const Speakers = () => {
               className="speaker w-1/2 md:w-1/4 lg:w-1/5 xl:w-1/6 aspect-square"
             >
               <div
-                className="image w-full h-full aspect-square"
+                className="image h-full aspect-square"
               >
                 <LazyLoadImage
                   src={
