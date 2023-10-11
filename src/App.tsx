@@ -13,12 +13,13 @@ import NotFound from './pages/NotFound/NotFound'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
-
   return (
     <div>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route index element={
           <div>
