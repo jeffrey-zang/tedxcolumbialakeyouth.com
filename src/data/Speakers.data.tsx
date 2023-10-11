@@ -35,7 +35,7 @@ export const keynotes: SpeakerType = {
     name: "Dr. Paul Smith",
     image: paul,
     title: "Keynote Speech",
-    affiliation: "Perimeter Institute for Theoretical Physics"
+    affiliation: " Managing Director and Chief Operating Officer of the Perimeter Institute for Theoretical Physics"
   },
 };
 
