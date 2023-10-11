@@ -71,7 +71,7 @@ export const scheduleData = [
   [
     {
       type: "speech",
-      speaker: "Jacklyn Biggin",
+      speaker: "Bob Egan",
       time: "11:16 AM",
       location: "Auditorium",
     },
@@ -228,7 +228,7 @@ export const scheduleData = [
   [
     {
       type: "speech",
-      speaker: "Bob Egan",
+      speaker: "Jacklyn Biggin",
       time: "4:31 PM",
       location: "Auditorium",
     },
