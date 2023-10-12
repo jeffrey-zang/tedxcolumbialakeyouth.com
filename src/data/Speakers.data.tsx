@@ -73,7 +73,12 @@ export const speakers: SpeakerType = {
     name: "Bob Egan",
     image: bob,
     title: "Essential Educational Elements for the 21st Century",
-    affiliation: "City of Kitchener"
+    affiliation: "City of Kitchener",
+    description: (
+      <div>
+         Bob Egan is a multiple Juno Award-winning, Canadian Hall of Fame member and a recipient of the Governor General’s Award.  He is also a social scientist long fascinated with how people shape and live their lives.  From his ongoing conversations with youth, he has identified three Essential Educational Elements that will prepare them to experience a productive, fulfilling and well-lived life.
+      </div>
+    )
   },
   "Milind Kumar": {
     name: "Milind Kumar",
