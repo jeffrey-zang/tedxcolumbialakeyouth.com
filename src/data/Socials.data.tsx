@@ -1,7 +1,6 @@
-import { BsInstagram } from 'react-icons/bs'
+import { BsInstagram, BsTwitch } from 'react-icons/bs'
 import { SiTwitter } from 'react-icons/si'
 import { SocialsData } from '../types/socials'
-import { AiFillYoutube } from 'react-icons/ai'
 
 const socialsData:SocialsData[] = [
   {
@@ -14,9 +13,9 @@ const socialsData:SocialsData[] = [
     icon: <SiTwitter />,
     alt: 'Twitter'
   }, {
-    href: "https://www.youtube.com/@TEDxColumbiaLakeYouth",
-    icon: <AiFillYoutube />,
-    alt: 'Youtube'
+    href: "https://www.twitch.tv/tedxcolumbia_lake_youth",
+    icon: <BsTwitch />,
+    alt: 'Twitch'
   }
 ]
 

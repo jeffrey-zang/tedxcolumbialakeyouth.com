@@ -155,7 +155,7 @@ export const speakers: SpeakerType = {
         in life experience too.
       </div>
     ),
-    affiliation: "Major League Hacking"
+    affiliation: "Automattic"
   },
   "Steven Bryson": {
     name: "Steven Bryson",
