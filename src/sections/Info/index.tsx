@@ -9,31 +9,31 @@ import ReactPlayer from 'react-player'
 
 const Info = () => {
 
-  const [days, setDays] = useState<any>(0)
-  const [hours, setHours] = useState<any>(0)
-  const [minutes, setMinutes] = useState<any>(0)
-  const [seconds, setSeconds] = useState<any>(0)
+  // const [days, setDays] = useState<any>(0)
+  // const [hours, setHours] = useState<any>(0)
+  // const [minutes, setMinutes] = useState<any>(0)
+  // const [seconds, setSeconds] = useState<any>(0)
 
-  const countDownDate = new Date("Oct 14, 2023 10:00:00").getTime();
+  // const countDownDate = new Date("Oct 14, 2023 10:00:00").getTime();
 
-  const x = setInterval(function() {
+  // const x = setInterval(function() {
       
-    const distance = countDownDate - new Date().getTime();
+  //   const distance = countDownDate - new Date().getTime();
       
-    if (distance < 0) {
-      clearInterval(x);
-      setDays("00")
-      setHours("00")
-      setMinutes("00")
-      setSeconds("00")
-    }
+  //   if (distance < 0) {
+  //     clearInterval(x);
+  //     setDays("00")
+  //     setHours("00")
+  //     setMinutes("00")
+  //     setSeconds("00")
+  //   }
 
-    setDays(Math.floor(distance / (1000 * 60 * 60 * 24)).toString().padStart(2, '0'))
-    setHours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, '0'))
-    setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0'))
-    setSeconds(Math.floor((distance % (1000 * 60)) / 1000).toString().padStart(2, '0'))
+  //   setDays(Math.floor(distance / (1000 * 60 * 60 * 24)).toString().padStart(2, '0'))
+  //   setHours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, '0'))
+  //   setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0'))
+  //   setSeconds(Math.floor((distance % (1000 * 60)) / 1000).toString().padStart(2, '0'))
       
-  }, 1000);
+  // }, 1000);
 
   return ( 
     <div className='z-40 about' id='event-info'>
@@ -48,7 +48,7 @@ const Info = () => {
       </div>
 
 
-      <div className='flex flex-col items-center my-[8rem]'>
+      {/* <div className='flex flex-col items-center my-[8rem]'>
         <h3 className='text-dimmed text-2xl'>T-MINUS</h3>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center timer-container'>
           <div className='timer hover:scale-110 hover:rotate-6 hover:-translate-x-5'>
@@ -69,7 +69,7 @@ const Info = () => {
           </div>
         </div>
         <h3 className='text-dimmed text-2xl font-normal text-center'>until<br/><Title /></h3>
-      </div>
+      </div> */}
 
       <div className='section typography mt-20'>
         <div className='section-wrapper'>
