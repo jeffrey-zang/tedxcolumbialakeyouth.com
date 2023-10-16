@@ -11,6 +11,7 @@ import Cathy from "../assets/headshots/cathy.jpeg";
 import Casper from "../assets/headshots/casper.jpeg";
 import moulik from "../assets/headshots/moulik.jpeg";
 import david from "../assets/headshots/david.jpg";
+import jora from "../assets/headshots/jora.jpg";
 
 import { TeamType } from "../types/team";
 
@@ -88,4 +89,9 @@ export const humans = [
     role: "Production",
     image: david,
   },
+  {
+    name: "David Jora",
+    role: "Photography",
+    image: jora
+  }
 ] as TeamType[];
