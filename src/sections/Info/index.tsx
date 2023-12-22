@@ -7,6 +7,12 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import ReactPlayer from 'react-player'
 
+import tedx30 from '../../assets/photos/event/tedx-30.webp'
+import tedx31 from '../../assets/photos/event/tedx-31.webp'
+import tedx35 from '../../assets/photos/event/TedX-35.jpg'
+import tedx38 from '../../assets/photos/event/TedX-38.jpg'
+import tedx45 from '../../assets/photos/event/TedX-45.jpg'
+
 const Info = () => {
 
   // const [days, setDays] = useState<any>(0)
@@ -47,7 +53,6 @@ const Info = () => {
         <ReactPlayer url='https://www.dropbox.com/scl/fi/m8ysa9lxid2snmuk4bx3z/PRIME_MINISTER_VIDEO_OMG.mp4?rlkey=dt3z1z3xw1dtmsifpzqowhlbe&raw=1' width='100%' height='100%' controls={true} className='rounded-xl' />
       </div>
 
-
       {/* <div className='flex flex-col items-center my-[8rem]'>
         <h3 className='text-dimmed text-2xl'>T-MINUS</h3>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center timer-container'>
@@ -87,6 +92,19 @@ const Info = () => {
           <h2>What is <a href='https://www.ted.com/about/programs-initiatives/tedx-program'>TED<sup>x</sup></a>?</h2>
           <p>In the spirit of ideas worth spreading, TED has created a program called TED<sup>x</sup>. TED<sup>x</sup> is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TED<sup>x</sup>Columbia Lake Youth, where x = independently organized TED event. At TED<sup>x</sup>Columbia Lake Youth, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TED<sup>x</sup> program, but individual TED<sup>x</sup> events, including ours, are self-organized.</p>
         </div>
+      </div>
+
+      <div className='mt-32 flex flex-col items-center gap-8 justify-center typography'>
+        <h2>Event Photos</h2>
+        <div className='flex gap-8 flex-col md:flex-row'>
+          <img src={tedx45} alt='tedx45' className='w-full md:w-1/3 object-cover' />
+          <div className='flex flex-col gap-8 w-full md:w-2/3'>
+            <img src={tedx35} alt='tedx35 object-cover' />
+            <img src={tedx31} alt='tedx31 object-cover' />
+            <img src={tedx30} alt='tedx30 object-cover' />
+          </div>
+        </div>
+        <img src={tedx38} alt='tedx38' className='h-[20rem] w-full object-cover' />
       </div>
     </div>
   )

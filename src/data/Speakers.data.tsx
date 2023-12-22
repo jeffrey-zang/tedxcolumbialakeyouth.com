@@ -1,8 +1,15 @@
 // import each speaker image from ../../assets/speakers
+import norris from '../assets/mcs/cnorris.jpg'
+import joe from '../assets/mcs/joe.jpg'
+
+// keynotes
+import bardish from "../assets/keynotes/bardish.jpg";
+import dorothy from "../assets/keynotes/dorothy.jpg";
+import paul from "../assets/keynotes/paul.jpg";
+
 import aditya from "../assets/speakers/aditya.jpg";
 import aminka from "../assets/speakers/aminka.png";
 import Ammaar from "../assets/speakers/Ammaar.jpg";
-import bardish from "../assets/speakers/bardish.jpg";
 import bob from "../assets/speakers/bob.png";
 import cindy from "../assets/speakers/cindy.jpeg";
 import elaine from "../assets/speakers/elaine.jpg";
@@ -11,12 +18,25 @@ import john from "../assets/speakers/john.jpeg";
 import katelyn from "../assets/speakers/katelyn.png";
 import milind from "../assets/speakers/milind.jpeg";
 import paris from "../assets/speakers/paris.png";
-import paul from "../assets/speakers/paul.jpg";
-import dorothy from "../assets/speakers/dorothy.jpg";
 import steven from "../assets/speakers/steven.jpeg";
 import jacklyn from "../assets/speakers/jacklyn.jpeg";
 
 import { SpeakerType } from "../types/speakers";
+
+export const mcs: SpeakerType = {
+  "Craig Norris": {
+    name: "Craig Norris",
+    image: norris,
+    title: "Master of Ceremonies",
+    affiliation: "Host, CBC K-W’s The Morning Edition on 89.1 FM and CBC Listen"
+  },
+  "Joe Pavia": {
+    name: "Joe Pavia",
+    image: joe,
+    title: "Master of Ceremonies",
+    affiliation: "Reporter/Editor, CBC K-W’s The Morning Edition on 89.1 FM and CBC Listen"
+  }
+}
 
 export const keynotes: SpeakerType = {
   "MP Bardish Chagger": {
