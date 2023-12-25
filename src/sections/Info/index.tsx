@@ -9,9 +9,9 @@ import ReactPlayer from 'react-player'
 
 import tedx30 from '../../assets/photos/event/tedx-30.webp'
 import tedx31 from '../../assets/photos/event/tedx-31.webp'
-import tedx35 from '../../assets/photos/event/TedX-35.jpg'
-import tedx38 from '../../assets/photos/event/TedX-38.jpg'
-import tedx45 from '../../assets/photos/event/TedX-45.jpg'
+import tedx35 from '../../assets/photos/event/TedX-35.webp'
+import tedx38 from '../../assets/photos/event/TedX-38.webp'
+import tedx45 from '../../assets/photos/event/TedX-45.webp'
 
 const Info = () => {
 
@@ -42,7 +42,7 @@ const Info = () => {
   // }, 1000);
 
   return ( 
-    <div className='z-40 about' id='event-info'>
+    <div className='z-40 about mb-32' id='event-info'>
       <div className='h-8 bg-[#c20025] opacity-90'></div>
       <div className='h-8 bg-[#c20025] opacity-70'></div>
       <div className='h-8 bg-[#c20025] opacity-50'></div>
@@ -97,14 +97,14 @@ const Info = () => {
       <div className='mt-32 flex flex-col items-center gap-8 justify-center typography'>
         <h2>Event Photos</h2>
         <div className='flex gap-8 flex-col md:flex-row'>
-          <img src={tedx45} alt='tedx45' className='w-full md:w-1/3 object-cover' />
+          <LazyLoadImage effect='blur' src={tedx45} alt='tedx45' wrapperClassName='w-full md:w-1/3 object-cover' className='h-full object-cover' />
           <div className='flex flex-col gap-8 w-full md:w-2/3'>
-            <img src={tedx35} alt='tedx35 object-cover' />
-            <img src={tedx31} alt='tedx31 object-cover' />
-            <img src={tedx30} alt='tedx30 object-cover' />
+            <LazyLoadImage effect='blur' src={tedx35} alt='tedx35 object-cover' />
+            <LazyLoadImage effect='blur' src={tedx31} alt='tedx31 object-cover' />
+            <LazyLoadImage effect='blur' src={tedx30} alt='tedx30 object-cover' />
           </div>
         </div>
-        <img src={tedx38} alt='tedx38' className='h-[20rem] w-full object-cover' />
+        <LazyLoadImage effect='blur' src={tedx38} alt='tedx38' wrapperClassName='h-[20rem] w-full object-cover' />
       </div>
     </div>
   )
