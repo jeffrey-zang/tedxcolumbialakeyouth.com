@@ -1,0 +1,29 @@
+.person {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #e5e7eb;
+
+    &.linked {
+      &:hover {
+        border-radius: 30%;
+        scale: 1.1;
+      }
+
+      transition: all .2s ease !important;
+    }
+
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+}

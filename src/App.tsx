@@ -20,6 +20,7 @@ function App() {
     <div>
       <Navbar />
       <ScrollToTop />
+
       <Routes>
         <Route index element={
           <div>
@@ -37,6 +38,7 @@ function App() {
         <Route path='/license' element={<License />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      
       <Footer />
     </div>
   )

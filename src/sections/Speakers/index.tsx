@@ -1,6 +1,6 @@
 import { parsedSpeakerData } from '../../data/Speakers.data';
-import Speaker from '../../components/Speaker';
-import '../../components/Speaker/Speaker.scss';
+import Person from '../../components/Person';
+import './Speakers.scss'
 
 const Speakers = () => {
   return (
@@ -14,10 +14,10 @@ const Speakers = () => {
                 const personName = person[0];
                 const personData = person[1];
                 return (
-                  <Speaker
+                  <Person
                     image={personData.image}
                     name={personName}
-                    affiliation={personData.affiliation}
+                    description={personData.affiliation}
                   />
                 );
               })}

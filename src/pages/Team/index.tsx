@@ -1,29 +1,13 @@
-import "./Team.scss";
-
-import { humans } from "../../data/Team.data";
-
+import { humans, bearLinks } from "../../data/Team.data";
 import { useState } from "react";
-
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
+import Person from '../../components/Person';
 
 const Team = () => {
   const [bears, setBears] = useState(false);
   const [count, setCount] = useState(0);
 
-  const bearLinks = [
-    "https://www.americanbear.org/education-awareness/bears-of-the-world/",
-    "https://www.nationalgeographic.com/animals/mammals/facts/grizzly-polar-panda",
-    "https://www.nwf.org/Educational-Resources/Wildlife-Guide/Mammals/black-bear",
-    "https://www.nps.gov/subjects/bears/index.htm",
-    "https://www.bearsmart.com/about-bears/north-americas-bears/",
-    "https://animalfactguide.com/animal-facts/grizzly-bear/",
-    "https://bearwise.org",
-    "https://placebear.com",
-  ];
-
   return (
-    <div className="mx-auto max-w-[110rem]">
+    <div className="mx-auto max-w-[100rem]">
       <button
         style={{ opacity: count / 10 + 0.1 }}
         className="text-lg no-styles absolute cursor-pointer"
@@ -41,45 +25,34 @@ const Team = () => {
         The {bears ? "fluffy animals" : "individuals"} hard at work to make this
         event possible!
       </p>
+
       <div className="flex justify-center flex-wrap gap-12">
-        {humans.map((human) => {
+        {humans.map((human, index) => {
           return (
-            <div
-              className={`human w-full md:w-1/3 lg:w-1/4 ${
-                human.href ? "href" : ""
-              }`}
-            >
-              <div
-                className="image"
-                onClick={() => {
-                  if (human.href && !bears) {
-                    window.open(human.href);
-                  }
-                  if (human.href && bears) {
-                    window.open(
-                      bearLinks[Math.floor(Math.random() * bearLinks.length)]
-                    );
-                  }
-                }}
-              >
-                <LazyLoadImage
-                  src={
-                    bears
-                      ? `https://placebear.com/${
-                          Math.random() > 0.8 ? "g/" : ""
-                        }${Math.round(Math.random() * 600 + 400)}/${Math.round(
-                          Math.random() * 600 + 400
-                        )}`
-                      : human.image
-                  }
-                  alt={human.name}
-                  effect='blur' 
-                  wrapperClassName='inner-image'
-                />
-              </div>
-              <h3>{human.name}</h3>
-              <p className="role">{human.role}</p>
-            </div>
+            <Person 
+              onClick={() => {
+                if (human.href && !bears) {
+                  window.open(human.href);
+                }
+                if (human.href && bears) {
+                  window.open(
+                    bearLinks[Math.floor(Math.random() * bearLinks.length)]
+                  );
+                }
+              }}
+              image={
+                bears
+                  ? `https://placebear.com/${
+                      Math.random() > 0.8 ? "g/" : ""
+                    }${Math.round(Math.random() * 600 + 400)}/${Math.round(
+                      Math.random() * 600 + 400
+                    )}`
+                  : human.image
+              }
+              name={human.name}
+              description={human.role}
+              key={`human-${index}`}
+            />
           );
         })}
       </div>

@@ -1,4 +1,4 @@
-import Hooman from "../assets/headshots/hooman.jpg";
+import Hooman from "../assets/headshots/hooman.jpeg";
 import Yoyo from "../assets/headshots/yoyo.webp";
 import Victor from "../assets/headshots/victor.webp";
 import Jeffrey from "../assets/headshots/jeffrey.webp";
@@ -95,3 +95,14 @@ export const humans = [
     image: jora
   }
 ] as TeamType[];
+
+export const bearLinks = [
+  "https://www.americanbear.org/education-awareness/bears-of-the-world/",
+  "https://www.nationalgeographic.com/animals/mammals/facts/grizzly-polar-panda",
+  "https://www.nwf.org/Educational-Resources/Wildlife-Guide/Mammals/black-bear",
+  "https://www.nps.gov/subjects/bears/index.htm",
+  "https://www.bearsmart.com/about-bears/north-americas-bears/",
+  "https://animalfactguide.com/animal-facts/grizzly-bear/",
+  "https://bearwise.org",
+  "https://placebear.com",
+] as string[];
