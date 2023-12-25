@@ -104,7 +104,7 @@ const Info = () => {
             <LazyLoadImage effect='blur' src={tedx30} alt='tedx30 object-cover' />
           </div>
         </div>
-        <LazyLoadImage effect='blur' src={tedx38} alt='tedx38' wrapperClassName='h-[20rem] w-full object-cover' />
+        <LazyLoadImage effect='blur' src={tedx38} alt='tedx38' wrapperClassName='h-[20rem] w-full' className='h-full w-full object-cover' />
       </div>
     </div>
   )

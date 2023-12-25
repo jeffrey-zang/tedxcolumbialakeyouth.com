@@ -1,4 +1,4 @@
-import './Speakers.scss'
+import './Speaker.scss'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
@@ -10,7 +10,7 @@ interface SpeakerPropType {
 
 const Speaker = (props:SpeakerPropType) => {
   return (
-    <div className='speaker md:w-1/4 mb-4'>
+    <div className='speaker w-full sm:w-1/2 md:w-1/5 mb-4'>
       <div className='aspect-square w-full h-full'>
         <LazyLoadImage
           src={

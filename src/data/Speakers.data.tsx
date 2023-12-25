@@ -1,4 +1,6 @@
 // import each speaker image from ../../assets/speakers
+
+// mcs
 import norris from '../assets/mcs/cnorris.jpg'
 import joe from '../assets/mcs/joe.jpg'
 
@@ -7,6 +9,7 @@ import bardish from "../assets/keynotes/bardish.jpg";
 import dorothy from "../assets/keynotes/dorothy.jpg";
 import paul from "../assets/keynotes/paul.jpg";
 
+// speakers
 import aditya from "../assets/speakers/aditya.jpg";
 import aminka from "../assets/speakers/aminka.png";
 import Ammaar from "../assets/speakers/Ammaar.jpg";
@@ -20,6 +23,9 @@ import milind from "../assets/speakers/milind.jpeg";
 import paris from "../assets/speakers/paris.png";
 import steven from "../assets/speakers/steven.jpeg";
 import jacklyn from "../assets/speakers/jacklyn.jpeg";
+
+// performers
+import pavani from '../assets/speakers/pavani.jpg'
 
 import { SpeakerType } from "../types/speakers";
 
@@ -263,4 +269,33 @@ export const speakers: SpeakerType = {
   },
 };
 
-export const allSpeakers = { ...speakers, ...keynotes };
+export const performers: SpeakerType = {
+  "Pavani Sangapallar": {
+    name: "Pavani Sangapallar",
+    image: pavani,
+    title: "Tum Hi Ho | Diamonds - Hindi/English mashup - Pavani Sangapallar",
+    description: <div>Pavani Sangapallar will be performing a mashup of Hindi/English music.</div>,
+    affiliation: "Iroquois Ridge High School"
+  }
+};
+
+export const parsedSpeakerData = [
+  {
+    data: mcs, 
+    title: "Master of Ceremonies"
+  },
+  {
+    data: keynotes,
+    title: "Keynotes"
+  },
+  {
+    data: speakers, 
+    title: "Speakers"
+  },
+  {
+    data: performers,
+    title: "Performers"
+  }
+]
+
+export const allSpeakers = { ...mcs, ...speakers, ...keynotes };
