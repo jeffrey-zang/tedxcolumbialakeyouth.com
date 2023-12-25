@@ -26,6 +26,7 @@ import jacklyn from "../assets/speakers/jacklyn.jpeg";
 
 // performers
 import pavani from '../assets/speakers/pavani.jpg'
+import michael from '../assets/speakers/michael.jpeg'
 
 import { SpeakerType } from "../types/speakers";
 
@@ -276,6 +277,13 @@ export const performers: SpeakerType = {
     title: "Tum Hi Ho | Diamonds - Hindi/English mashup - Pavani Sangapallar",
     description: <div>Pavani Sangapallar will be performing a mashup of Hindi/English music.</div>,
     affiliation: "Iroquois Ridge High School"
+  },
+  "Michael Xu": {
+    name: "Michael Xu",
+    image: michael,
+    title: "Blind-Folded Ballade Coda - Michael Xu",
+    description: <div>Ballade in G minor op.1 no. 23 or Revolutionary op. 10, no. 12. These are famous classical piano songs that Michael has played in the past and are in multiple movies/animes. He has made many provincial and national level titles in terms of music and exam scores, as his grade eight music exam score is a 97% average (First Class Honours with Distinction) and also grade 10 is a 90% average. He's gonna play these...blindfolded ;)</div>,
+    affiliation: 'University of Waterloo'
   }
 };
 

@@ -11,8 +11,8 @@ interface PersonPropType {
 
 const Person = (props:PersonPropType) => {
   return (
-    <div className={`person w-full sm:w-1/2 md:w-1/5 mb-4 transition-all`}>
-      <div className='aspect-square w-full h-full'>
+    <div className={`person w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4 transition-all`}>
+      <div className='aspect-square w-full'>
         <LazyLoadImage
           src={
             props.image
@@ -23,7 +23,7 @@ const Person = (props:PersonPropType) => {
           className={`${props.onClick ? "linked cursor-pointer" : ""}`}
         />
       </div>
-      <h3 className='mt-4 text-2xl'>{props.name}</h3>
+      <h3 className='text-2xl'>{props.name}</h3>
       <p>{props.description}</p>
     </div>
   )

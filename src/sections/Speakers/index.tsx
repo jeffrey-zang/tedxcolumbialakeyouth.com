@@ -4,10 +4,10 @@ import './Speakers.scss'
 
 const Speakers = () => {
   return (
-    <div className='flex flex-col items-center pt-24' id='speakers'>
+    <div className='flex flex-col items-center pt-24 max-w-[100rem] mx-auto' id='speakers'>
       {parsedSpeakerData.map((section, index) => {
         return (
-          <div key={index}>
+          <div key={index} className='mt-8'>
             <h2 className='text-center'>{section.title}</h2>
             <div className='speaker-section'>
               {Object.entries(section.data).map((person: any) => {
