@@ -1,4 +1,13 @@
 import { Partner } from "../types/partners"
+
+// platinum partners
+import uw from "../assets/partners/uw.png";
+import ycf from "../assets/partners/ycf.png";
+import wrdsb from "../assets/partners/wrdsb.png";
+import swril from "../assets/partners/swril.jpg";
+import zehrs from "../assets/partners/ZEHRS.avif";
+
+// big partners
 import ked from '../assets/partners/ked.jpg'
 import kit from '../assets/partners/kit.jpg'
 import meal from '../assets/partners/meal.png'
@@ -11,8 +20,28 @@ import idle from '../assets/partners/idle.webp'
 import wrsbc from '../assets/partners/wrsbc.png'
 import cbc from '../assets/partners/cbc.png'
 
+export const platinumPartners = [
+  {
+    logo: uw,
+    href: "https://uwaterloo.ca"
+  }, {
+    logo: ycf,
+    href: "https://youthcreativityfund.ca",
+    class: "bg-[#000] border-2 border-white"
+  }, {
+    logo: wrdsb,
+    href: "https://www.wrdsb.ca"
+  }, {
+    logo: swril,
+    href: "https://www.swril.ca"
+  }, {
+    logo: zehrs,
+    href: "https://www.zehrs.ca/"
+  }
+] as Partner[]
+
 export const partnerData = [
-{
+  {
     logo: ked,
     href: "https://www.tedxkitchenered.com",
   }, {

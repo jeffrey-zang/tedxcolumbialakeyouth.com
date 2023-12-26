@@ -4,9 +4,9 @@ const Socials = () => {
   return (
     <div className='flex gap-2'>
       {
-        socialsData.map((social) => {
+        socialsData.map((social, index) => {
           return (
-            <div onClick={() => window.open(social.href)} className='hover:text-red transition-colors cursor-pointer'>
+            <div onClick={() => window.open(social.href)} key={`social-${index}`} className='hover:text-red transition-colors cursor-pointer'>
               {social.icon}
             </div>
           )

@@ -2,8 +2,9 @@ import { Routes, Route } from 'react-router-dom'
 
 import Info from './sections/Info'
 import Photos from './sections/Photos'
-import Partners from './sections/Partners'
 import Speakers from './sections/Speakers'
+import Partners from './sections/Partners'
+import Contact from './sections/Contact'
 
 import Landing from './pages/Landing'
 import About from './pages/About'
@@ -31,6 +32,7 @@ function App() {
               <Photos />
               <Speakers />
               <Partners />
+              <Contact />
             </div>
           </div>
         } />
