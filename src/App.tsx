@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 
 import Info from './sections/Info'
+import Photos from './sections/Photos'
 import Partners from './sections/Partners'
 import Speakers from './sections/Speakers'
 
@@ -27,6 +28,7 @@ function App() {
             <Landing />
             <div className='bg-gradient-to-b from-black via-darkred to-black'>
               <Info />
+              <Photos />
               <Speakers />
               <Partners />
             </div>
