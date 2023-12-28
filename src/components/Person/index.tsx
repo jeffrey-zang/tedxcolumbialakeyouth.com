@@ -11,7 +11,7 @@ interface PersonPropType {
 
 const Person = (props:PersonPropType) => {
   return (
-    <div className={`person w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4 transition-all`}>
+    <div className={`person w-2/3 sm:w-1/2 md:w-1/4 lg:w-1/5 mb-4 transition-all`}>
       <div className='aspect-square w-full'>
         <LazyLoadImage
           src={
