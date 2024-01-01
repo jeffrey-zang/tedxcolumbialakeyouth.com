@@ -10,7 +10,7 @@
   padding: 0;
 
   transition: width 0.4s ease-in-out;
-
+  
   div {
     margin: 0;
     padding: 0;
@@ -18,8 +18,13 @@
   }
   &.right div {
     background: radial-gradient(circle, rgba(236,215,222,1) 0%, rgba(242,241,244,1) 35%);
-  } &.left div {
-    background: radial-gradient(circle, rgba(50,61,84,1) 0%, rgba(17,24,39,1) 35%);
+  } &.left {
+    --mouse-x: 100%;
+    width: var(--mouse-x);
+
+    div {
+      background: radial-gradient(circle, rgba(50,61,84,1) 0%, rgba(17,24,39,1) 35%);
+    }
   }
   
   .h1, .h2, .h3 {

@@ -8,39 +8,24 @@ const Landing = () => {
   const ref = useRef<HTMLDivElement>(null)
   
   const handleMove = (event:React.MouseEvent<HTMLDivElement>) => {
+    
     if (ref.current) {
-      const widthAnimation = {
-        width: `calc(${event.clientX / window.innerWidth * 100}% + 12px)`
-      }
       
+      const widthAnimation = {
+        "--mouse-x": `calc(${event.clientX / window.innerWidth * 100}% + 12px)`
+      }
+  
       const isMobile = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0)
 
       if (isMobile) {
-        ref.current.style.width = widthAnimation.width
+        ref.current.style.width = widthAnimation["--mouse-x"]
       } else {
-        if ((event.clientX / window.innerWidth * 100) >= 98.5) {
-          ref.current.animate({
-            width: "100%"
-          }, {
-            duration: 300,
-            fill: "forwards",
-            easing: "ease-in",
-          });
-        } else if ((event.clientX / window.innerWidth * 100) <= 1) {
-          ref.current.animate({
-            width: "0%"
-          }, {
-            duration: 300,
-            fill: "forwards",
-            easing: "ease-in",
-          });
-        } else {
-          ref.current.animate(widthAnimation, {
-            duration: 800,
-            fill: "forwards",
-            easing: "ease-in",
-          });
-        }
+        ref.current.animate(widthAnimation, {
+          duration: 500,
+          fill: "forwards",
+          delay: 0,
+          easing: "ease-out",
+        });
       }
     }
   }
